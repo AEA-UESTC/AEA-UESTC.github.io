@@ -1,7 +1,15 @@
+- name: KhVeMx
+  url: https://newland.khvemx.work/
+  desc: 新大陸發現部
+  image: https://newland.khvemx.work/_lib/mainPagePic/%E7%BB%AA%E5%B1%B1%E7%9C%9F%E5%AF%BB.png
 - name: JimHan
   url: https://www.zerolite.cn
-  desc: 翎风的博客
+  desc: Zerolite Blog
   image: https://lain.bgm.tv/pic/user/c/000/57/91/579104.jpg
+- name: Wen-Jie Shu
+  url: https://scholar.google.com/citations?hl=en&user=bM_lvLAAAAAJ
+  desc: Google Scholar
+  image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=bM_lvLAAAAAJ&citpid=3
 - name: Zerolite Studio
   url: https://studio.zerolite.cn/
   desc: AEA Zerolite Studio 工作室
