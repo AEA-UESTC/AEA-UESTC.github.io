@@ -112,7 +112,7 @@ sidebar: left
 
 social:
   email: mailto:xxx@gmail.com
-  github: https://github.com/yourname
+  github: https://github.com/Applicable-Electronic-Association
   # google: https://plus.google.com/yourname
   # twitter: https://twitter.com/yourname
   # facebook: https://www.facebook.com/yourname
@@ -124,9 +124,9 @@ social:
   # flickr: https://www.flickr.com/photos/yourname
   # dribbble: https://dribbble.com/yourname
   # behance: https://www.behance.net/yourname
-  bilibili: https://space.bilibili.com/yourname
+  bilibili: https://space.bilibili.com/512380538
   # weibo: https://weibo.com/yourname
-  # zhihu: https://www.zhihu.com/people/yourname
+  zhihu: https://www.zhihu.com/people/yourname
   # reddit: https://www.reddit.com/user/yourname
   # tumblr: https://yourname.tumblr.com
   # medium: https://medium.com/@yourname
@@ -135,7 +135,7 @@ social:
   # keybase: https://keybase.io/yourname
   telegram: https://t.me/yourname
   # discord: https://discordapp.com/users/yourname
-  steam: https://steamcommunity.com/id/yourname
+  steam: https://steamcommunity.com/profiles/76561199098005442
 
 widgets:
   - category
@@ -309,16 +309,16 @@ gitalk:
 
 # https://giscus.app/zh-CN
 giscus:
-  enable: false
-  repo:
-  repoId:
-  category:
-  categoryId:
-  mapping: mapping
-  strict: 0
+  enable: true
+  repo: Applicable-Electronic-Association/Applicable-Electronic-Association.github.io
+  repoId: R_kgDOOO7StA
+  category: Giscus Comments
+  categoryId: DIC_kwDOOO7StM4CoeMd
+  mapping: title
+  strict: 1
   reactionsEnabled: 1
   emitMetadata: 0
-  inputPosition: bottom
+  inputPosition: top
   # commentTheme: preferred_color_scheme invalid
   lang: zh-CN
 
@@ -327,7 +327,7 @@ giscus:
 ########################################
 
 algolia_search:
-  enable: false
+  enable: true
   appID:
   apiKey:
   indexName:
@@ -409,9 +409,9 @@ article_copyright:
   content:
     author: true
     link: true
-    title: false
+    title: true
     date: false
-    updated: false
+    updated: true
     license: true
 
 # Clipboard configuration
@@ -460,11 +460,11 @@ sponsor:
 
 # Share
 share:
-  # - facebook
+  - facebook
   - twitter
-  # - linkedin
-  # - reddit
-  # - weibo
+  - linkedin
+  - reddit
+  - weibo
   - qq
   - weixin
 
@@ -524,12 +524,12 @@ player:
     # https://github.com/DIYgod/APlayer
     enable: true
     options:
-      audio: []
+      audio: ["https://music.163.com/song/media/outer/url?id=4010201.mp3"]
       fixed: false
       autoplay:
-      loop:
+      loop: true
       order:
-      preload:
+      preload: true
       volume:
       mutex:
       listFolded:
