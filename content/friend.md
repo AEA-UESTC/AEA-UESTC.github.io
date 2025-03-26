@@ -6,23 +6,12 @@ date: 2022-06-09T20:12:52+08:00
 lastmod: 2022-06-09T20:12:52+08:00
 ---
 
-## 本站信息
+## AEA Official Website by Hugo
+### 现在由AEA网络服务部维护运行
 
-- 站名： 拔剑Sketon
-- 站长： 拔剑Sketon
+- 维护组长： {{<externalLinkCard title="JimHan" link="https://www.zerolite.cn" cover="?">}}
+- 内容更新： @三角洲领域大神
 
-## 申请方法
-
-- 添加本站后，在本页留言，格式如下
-
-````yml
-```yml
-- name: #您的名字
-  url: #您的网址
-  desc: #简短描述
-  image: #一张图片
-```
-````
 
 ## 小伙伴们
 
