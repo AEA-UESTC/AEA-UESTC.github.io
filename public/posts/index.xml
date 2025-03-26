@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 25 Mar 2025 11:28:56 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>测试文章</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Tue, 25 Mar 2025 11:28:56 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;啊啊啊&#34;&gt;&#xA;&lt;a class=&#34;header-anchor&#34; href=&#34;#%e5%95%8a%e5%95%8a%e5%95%8a&#34;&gt;&lt;/a&gt;&#xA;啊，啊啊&#xA;&lt;/h2&gt;&lt;p&gt;本文讨论了Minecraft游戏中的各类地点信息，包括自动化机器、矿洞、特殊地点以及多种传送门等的位置及相关说明。关键要点包括：​&#xA;蜘蛛刷线机：位于主(-612, 64, 147)，从宜宾研究院坐铁路再换乘高速铁路可到达，在此挂机等蜘蛛被烫死，按指示牌可找到收集箱。​&#xA;矿洞：有废弃矿洞（主坐标未明确）含洞穴蜘蛛刷怪笼，还有多个露天大洞，分别在主(-1121, 66, 830)、(400, 71, 898)、(-244, 67, 1489)、(-111, 97, 1807) 。​&#xA;特殊地点：AEA纪念碑在主(114, 514, 0)，村庄在主(-1270, 86, 204)。​&#xA;传送门：末地传送门在下(-149, 129, 239)，坐有冰轨道的铁路可到达；火药塔门在下(-54, 128, -104)；宜宾研究院在下(-32, 128, 8)；电子科技大学在下(-43, 128, 55)；冰原传送门在下(-231, 128, 11) 。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
