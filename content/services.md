@@ -11,8 +11,8 @@ lastmod: 2025-03-27T00:00:00+08:00
 .services-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-  margin-bottom: 32px;
+  /* gap: 24px; */
+  /* margin-bottom: 32px; */
 }
 
 @media (max-width: 768px) {
@@ -37,6 +37,7 @@ lastmod: 2025-03-27T00:00:00+08:00
 
 ## AEA 开放平台
 
+<div class = "services-grid">
 {{<externalLinkCard title="AEA in Bilibili" link="https://space.bilibili.com/512380538" cover="/images/AEA_Logo.png">}}
 
 {{<externalLinkCard title="AEA Github组织" link="https://github.com/Applicable-Electronic-Association" cover="/images/Services/github.gif">}}
@@ -44,9 +45,11 @@ lastmod: 2025-03-27T00:00:00+08:00
 {{<externalLinkCard title="AEA 嘉立创开源广场" link="https://oshwhub.com/kongyouxether/works" cover="/images/Services/jlc.jpeg">}}
 
 {{<externalLinkCard title="AEA 官方飞书平台" link="?" cover="/images/Services/lark.png">}}
+</div>
 
 ## AEA 内网服务
 
+<div class = "services-grid">
 {{<externalLinkCard title="AEA 公用文件资源库" link="http://aea1989.tech/" cover="?">}}
 
 {{<externalLinkCard title="AEA 远程打印服务" link="?" cover="/images/Services/cups.webp">}}
@@ -58,9 +61,11 @@ lastmod: 2025-03-27T00:00:00+08:00
 {{<externalLinkCard title="AEA NextCloud" link="?" cover="/images/Services/Nextcloud_Logo.svg.png">}}
 
 <!-- {{<externalLinkCard title="AEA Samba" link="?" cover="?">}} -->
+</div>
 
 ## AEA 服务器管理
 
+<div class = "services-grid">
 {{<externalLinkCard title="AEA 服务器DashBoard" link="http://aea1989.tech/aea-dashboard/" cover="/images/Services/server.png">}}
 
 {{<externalLinkCard title="AEA OpenWRT" link="?" cover="/images/Services/openwrt.png">}}
@@ -70,11 +75,13 @@ lastmod: 2025-03-27T00:00:00+08:00
 {{<externalLinkCard title="AEA Debian" link="?" cover="/images/Services/Debian-OpenLogo.svg.png">}}
 
 {{<externalLinkCard title="AEA ESXI" link="?" cover="/images/Services/esxi.webp">}}
+</div>
 
 ## 旧版服务
 
+<div class = "services-grid">
 {{<externalLinkCard title="AEA 公告板（已停用）" link="http://aea1989.tech/blackboard/" cover="?">}}
 
 {{<externalLinkCard title="AEA Public Server V2" link="http://aea1989.tech/main/" cover="?">}}
-
+</div>
 
