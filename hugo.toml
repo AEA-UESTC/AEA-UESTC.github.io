@@ -17,3 +17,8 @@ baseName = "algolia"
 isPlainText = true
 mediaType = "application/json"
 notAlternative = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

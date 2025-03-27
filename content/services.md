@@ -8,9 +8,6 @@ lastmod: 2025-03-27T00:00:00+08:00
 ---
 
 <style>
-.post-link-card-wrap {
-  display: block;
-}
 .services-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
