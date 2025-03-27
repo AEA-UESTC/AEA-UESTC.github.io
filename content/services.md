@@ -34,7 +34,7 @@ lastmod: 2025-03-27T00:00:00+08:00
 
 ## AEA 开放平台
 
-{{<externalLinkCard title="AEA in Bilibili" link="https://space.bilibili.com/512380538" cover="https://i2.hdslb.com/bfs/face/69757cf017f18fcc243e7ddeda5f932906b2bafa.jpg">}}
+{{<externalLinkCard title="AEA in Bilibili" link="https://space.bilibili.com/512380538" cover="/images/AEA_Logo.png">}}
 
 {{<externalLinkCard title="AEA Github组织" link="https://github.com/Applicable-Electronic-Association" cover="/images/Services/github.gif">}}
 
@@ -46,27 +46,27 @@ lastmod: 2025-03-27T00:00:00+08:00
 
 {{<externalLinkCard title="AEA 公用文件资源库" link="http://aea1989.tech/" cover="?">}}
 
-{{<externalLinkCard title="AEA 远程打印服务" link="?" cover="?">}}
+{{<externalLinkCard title="AEA 远程打印服务" link="?" cover="/images/Services/cups.webp">}}
 
-{{<externalLinkCard title="AEA HomeAssistant" link="?" cover="?">}}
-
-{{<externalLinkCard title="AEA Samba" link="?" cover="?">}}
-
-{{<externalLinkCard title="AEA NextCloud" link="?" cover="?">}}
+{{<externalLinkCard title="AEA HomeAssistant" link="?" cover="/images/Services/hass.png">}}
 
 {{<externalLinkCard title="AEA Samba" link="?" cover="?">}}
+
+{{<externalLinkCard title="AEA NextCloud" link="?" cover="/images/Services/Nextcloud_Logo.svg.png">}}
+
+<!-- {{<externalLinkCard title="AEA Samba" link="?" cover="?">}} -->
 
 ## AEA 服务器管理
 
 {{<externalLinkCard title="AEA 服务器DashBoard" link="http://aea1989.tech/aea-dashboard/" cover="/images/Services/server.png">}}
 
-{{<externalLinkCard title="AEA OpenWRT" link="?" cover="?">}}
+{{<externalLinkCard title="AEA OpenWRT" link="?" cover="/images/Services/">}}
 
-{{<externalLinkCard title="AEA TrueNAS" link="?" cover="?">}}
+{{<externalLinkCard title="AEA TrueNAS" link="?" cover="/images/Services/truenas.webp">}}
 
-{{<externalLinkCard title="AEA Debian" link="?" cover="?">}}
+{{<externalLinkCard title="AEA Debian" link="?" cover="/images/Services/Debian-OpenLogo.svg.png">}}
 
-{{<externalLinkCard title="AEA ESXI" link="?" cover="?">}}
+{{<externalLinkCard title="AEA ESXI" link="?" cover="/images/Services/esxi.webp">}}
 
 ## 旧版服务
 
