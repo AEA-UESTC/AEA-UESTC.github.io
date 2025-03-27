@@ -8,6 +8,9 @@ lastmod: 2025-03-27T00:00:00+08:00
 ---
 
 <style>
+.post-link-card-wrap {
+  display: block;
+}
 .services-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -25,12 +28,15 @@ lastmod: 2025-03-27T00:00:00+08:00
 
 ## AEA 核心服务
 
+<div class = "services-grid">
+
 {{<externalLinkCard title="AEA 设备租借" link="?" cover="?">}}
 
 {{<externalLinkCard title="AEA 3D打印申请" link="?" cover="?">}}
 
 {{<externalLinkCard title="AEA 公用文件资源库" link="http://aea1989.tech/" cover="?">}}
 
+</div>
 
 ## AEA 开放平台
 
