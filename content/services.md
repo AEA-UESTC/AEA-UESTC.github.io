@@ -30,11 +30,11 @@ lastmod: 2025-03-27T00:00:00+08:00
 
 <div class = "services-grid">
 
-{{<externalLinkCard title="AEA 设备租借" link="?" cover="?">}}
+{{<externalLinkCard title="AEA 设备租借" link="暂未开放" cover="/images/Services/rent.png">}}
 
-{{<externalLinkCard title="AEA 3D打印申请" link="?" cover="?">}}
+{{<externalLinkCard title="AEA 3D打印申请" link="暂未开放" cover="/images/Services/3dbambu.png">}}
 
-{{<externalLinkCard title="AEA 公用文件资源库" link="http://aea1989.tech/" cover="?">}}
+{{<externalLinkCard title="AEA 公用文件资源库" link="http://aea1989.tech/" cover="/images/Services/AEAarchive.png">}}
 
 </div>
 
@@ -47,21 +47,21 @@ lastmod: 2025-03-27T00:00:00+08:00
 
 {{<externalLinkCard title="AEA 嘉立创开源广场" link="https://oshwhub.com/kongyouxether/works" cover="/images/Services/jlc.jpeg">}}
 
-{{<externalLinkCard title="AEA 官方飞书平台" link="?" cover="/images/Services/lark.png">}}
+{{<externalLinkCard title="AEA 官方飞书平台" link="https://zcngu4sh2gpe.feishu.cn" cover="/images/Services/lark.png">}}
 </div>
 
 ## AEA 内网服务
 
 <div class = "services-grid">
-{{<externalLinkCard title="AEA 公用文件资源库" link="http://aea1989.tech/" cover="?">}}
+{{<externalLinkCard title="AEA 公用文件资源库" link="http://aea1989.tech/" cover="/images/Services/AEAarchive.png">}}
 
-{{<externalLinkCard title="AEA 远程打印服务" link="?" cover="/images/Services/cups.webp">}}
+{{<externalLinkCard title="AEA 远程打印服务" link="https://192.168.1.3:631" cover="/images/Services/cups.webp">}}
 
-{{<externalLinkCard title="AEA HomeAssistant" link="?" cover="/images/Services/hass.png">}}
+{{<externalLinkCard title="AEA HomeAssistant" link="http://192.168.1.3:8123/" cover="/images/Services/hass.png">}}
 
-{{<externalLinkCard title="AEA Samba" link="?" cover="?">}}
+{{<externalLinkCard title="AEA Samba" link="查看教程" cover="/images/Services/AEASamba.png">}}
 
-{{<externalLinkCard title="AEA NextCloud" link="?" cover="/images/Services/Nextcloud_Logo.svg.png">}}
+{{<externalLinkCard title="AEA NextCloud" link="http://aea1989.tech:1989/" cover="/images/Services/Nextcloud_Logo.svg.png">}}
 
 <!-- {{<externalLinkCard title="AEA Samba" link="?" cover="?">}} -->
 </div>
@@ -71,20 +71,20 @@ lastmod: 2025-03-27T00:00:00+08:00
 <div class = "services-grid">
 {{<externalLinkCard title="AEA 服务器DashBoard" link="http://aea1989.tech/aea-dashboard/" cover="/images/Services/server.png">}}
 
-{{<externalLinkCard title="AEA OpenWRT" link="?" cover="/images/Services/openwrt.png">}}
+{{<externalLinkCard title="AEA OpenWRT" link="http://192.168.1.2:19890/" cover="/images/Services/openwrt.png">}}
 
-{{<externalLinkCard title="AEA TrueNAS" link="?" cover="/images/Services/truenas.webp">}}
+{{<externalLinkCard title="AEA TrueNAS" link="http://aeanas.local:1989/" cover="/images/Services/truenas.webp">}}
 
 {{<externalLinkCard title="AEA Debian" link="?" cover="/images/Services/Debian-OpenLogo.svg.png">}}
 
-{{<externalLinkCard title="AEA ESXI" link="?" cover="/images/Services/esxi.webp">}}
+{{<externalLinkCard title="AEA ESXI" link="https://192.168.1.126/" cover="/images/Services/esxi.webp">}}
 </div>
 
 ## 旧版服务
 
 <div class = "services-grid">
-{{<externalLinkCard title="AEA 公告板（已停用）" link="http://aea1989.tech/blackboard/" cover="?">}}
+{{<externalLinkCard title="AEA 公告板（已停用）" link="http://aea1989.tech/blackboard/" cover="/images/Services/AEAboard.png">}}
 
-{{<externalLinkCard title="AEA Public Server V2" link="http://aea1989.tech/main/" cover="?">}}
+{{<externalLinkCard title="AEA Public Server V2" link="http://aea1989.tech/main/" cover="">}}
 </div>
 
