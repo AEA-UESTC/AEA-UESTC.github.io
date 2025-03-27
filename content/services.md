@@ -1,6 +1,7 @@
 ---
 title: 服务
 description: AEA提供的服务
+cover: "/covers/126757240_p9.jpg"
 
 date: 2025-03-27T00:00:00+08:00
 lastmod: 2025-03-27T00:00:00+08:00
