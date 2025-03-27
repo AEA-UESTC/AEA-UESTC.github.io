@@ -14,6 +14,9 @@ lastmod: 2025-03-27T00:00:00+08:00
   /* gap: 24px; */
   /* margin-bottom: 32px; */
 }
+.post-link-card {
+  width:80%;
+}
 
 @media (max-width: 768px) {
   .services-grid {
