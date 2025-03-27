@@ -27,11 +27,11 @@ lastmod: 2099-06-09T20:12:52+08:00
 
 <div class="services-grid">
 
-<externalLinkCard title="AEA 设备租借" link="?" cover="?">
+{{<externalLinkCard title="AEA 设备租借" link="?" cover="?">}}
 
-<externalLinkCard title="AEA 3D打印申请" link="?" cover="?">
+{{<externalLinkCard title="AEA 3D打印申请" link="?" cover="?">}}
 
-<externalLinkCard title="AEA 公用文件资源库" link="http://aea1989.tech/" cover="?">
+{{<externalLinkCard title="AEA 公用文件资源库" link="http://aea1989.tech/" cover="?">}}
 
 </div>
 
@@ -42,7 +42,7 @@ lastmod: 2099-06-09T20:12:52+08:00
 
 {{<externalLinkCard title="AEA Github组织" link="https://github.com/Applicable-Electronic-Association" cover="/images/Services/github.gif">}}
 
-{{<externalLinkCard title="AEA 嘉立创开放平台" link="?" cover="?">}}
+{{<externalLinkCard title="AEA 嘉立创开源广场" link="?" cover="?">}}
 
 {{<externalLinkCard title="AEA 官方飞书平台" link="?" cover="/images/Services/lark.png">}}
 </div>
