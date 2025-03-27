@@ -60,7 +60,7 @@ lastmod: 2025-03-27T00:00:00+08:00
 
 {{<externalLinkCard title="AEA 服务器DashBoard" link="http://aea1989.tech/aea-dashboard/" cover="/images/Services/server.png">}}
 
-{{<externalLinkCard title="AEA OpenWRT" link="?" cover="/images/Services/">}}
+{{<externalLinkCard title="AEA OpenWRT" link="?" cover="/images/Services/openwrt.png">}}
 
 {{<externalLinkCard title="AEA TrueNAS" link="?" cover="/images/Services/truenas.webp">}}
 
