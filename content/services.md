@@ -42,7 +42,7 @@ lastmod: 2099-06-09T20:12:52+08:00
 
 {{<externalLinkCard title="AEA Github组织" link="https://github.com/Applicable-Electronic-Association" cover="/images/Services/github.gif">}}
 
-{{<externalLinkCard title="AEA 嘉立创开源广场" link="?" cover="?">}}
+{{<externalLinkCard title="AEA 嘉立创开源广场" link="https://oshwhub.com/kongyouxether/works" cover="/images/Services/jlc.jpeg">}}
 
 {{<externalLinkCard title="AEA 官方飞书平台" link="?" cover="/images/Services/lark.png">}}
 </div>
