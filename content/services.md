@@ -2,8 +2,8 @@
 title: 服务
 description: AEA提供的服务
 
-date: 2022-06-09T20:12:52+08:00
-lastmod: 2022-06-09T20:12:52+08:00
+date: 2099-06-09T20:12:52+08:00
+lastmod: 2099-06-09T20:12:52+08:00
 
 ---
 
@@ -26,11 +26,13 @@ lastmod: 2022-06-09T20:12:52+08:00
 ## AEA 核心服务
 
 <div class="services-grid">
-{{<externalLinkCard title="AEA 设备租借" link="?" cover="?">}}
 
-{{<externalLinkCard title="AEA 3D打印申请" link="?" cover="?">}}
+<externalLinkCard title="AEA 设备租借" link="?" cover="?">
 
-{{<externalLinkCard title="AEA 公用文件资源库" link="http://aea1989.tech/" cover="?">}}
+<externalLinkCard title="AEA 3D打印申请" link="?" cover="?">
+
+<externalLinkCard title="AEA 公用文件资源库" link="http://aea1989.tech/" cover="?">
+
 </div>
 
 ## AEA 开放平台
