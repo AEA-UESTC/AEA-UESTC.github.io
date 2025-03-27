@@ -41,7 +41,7 @@ lastmod: 2025-03-27T00:00:00+08:00
 ## AEA 开放平台
 
 <div class = "services-grid">
-{{<externalLinkCard title="AEA in Bilibili" link="https://space.bilibili.com/512380538" cover="/images/AEA_Logo.png">}}
+{{<externalLinkCard title="AEA Bilibili官方" link="https://space.bilibili.com/512380538" cover="/images/AEA_Logo.png">}}
 
 {{<externalLinkCard title="AEA Github组织" link="https://github.com/Applicable-Electronic-Association" cover="/images/Services/github.gif">}}
 
