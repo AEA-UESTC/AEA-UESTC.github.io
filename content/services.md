@@ -85,6 +85,6 @@ lastmod: 2025-03-27T00:00:00+08:00
 <div class = "services-grid">
 {{<externalLinkCard title="AEA 公告板（已停用）" link="http://aea1989.tech/blackboard/" cover="/images/Services/AEAboard.png">}}
 
-{{<externalLinkCard title="AEA Public Server V2" link="http://aea1989.tech/main/" cover="">}}
+{{<externalLinkCard title="AEA Public Server V2" link="http://aea1989.tech/main/" cover="/images/Services/AEAV2.png">}}
 </div>
 
