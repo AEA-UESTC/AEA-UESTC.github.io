@@ -435,7 +435,7 @@ top:
 # whether to display the notification when the article is outdated
 outdate:
   enable: true
-  daysAgo: 180 # The number of days after which the article is considered outdated
+  daysAgo: 720 # The number of days after which the article is considered outdated
   message: 本文最后更新于 {time}，请注意文中内容可能已经发生变化。
 
 # ICP 备案
@@ -451,7 +451,7 @@ sponsor:
   icon:
     url: "../images/Services/github.gif" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
     rotate: false
-    mask: false # whether to use the images as a mask
+    mask: true # whether to use the images as a mask
   qr:
     - name: 支付宝
       src: "sponsor/alipay.png"

@@ -60,7 +60,7 @@ lastmod: 2025-03-27T00:00:00+08:00
 
 {{<externalLinkCard title="AEA HomeAssistant" link="http://192.168.1.3:8123/" cover="/images/Services/hass.png">}}
 
-{{<externalLinkCard title="AEA Samba" link="查看教程" cover="/images/Services/AEASamba.png">}}
+{{<postLinkCard title="AEA Samba" path="/path/samba" cover="/images/Services/AEASamba.png" escape="false">}}
 
 {{<externalLinkCard title="AEA NextCloud" link="http://aea1989.tech:1989/" cover="/images/Services/Nextcloud_Logo.svg.png">}}
 
