@@ -111,8 +111,8 @@ footer:
 sidebar: left
 
 social:
-  email: mailto:xxx@gmail.com
-  github: https://github.com/Applicable-Electronic-Association
+  email: mailto:3939379632@qq.com
+  github: https://github.com/AEA-UESTC
   # google: https://plus.google.com/yourname
   # twitter: https://twitter.com/yourname
   # facebook: https://www.facebook.com/yourname
@@ -126,7 +126,7 @@ social:
   # behance: https://www.behance.net/yourname
   bilibili: https://space.bilibili.com/512380538
   # weibo: https://weibo.com/yourname
-  zhihu: https://www.zhihu.com/people/yourname
+  # zhihu: https://www.zhihu.com/people/yourname
   # reddit: https://www.reddit.com/user/yourname
   # tumblr: https://yourname.tumblr.com
   # medium: https://medium.com/@yourname
@@ -310,7 +310,7 @@ gitalk:
 # https://giscus.app/zh-CN
 giscus:
   enable: true
-  repo: Applicable-Electronic-Association/Applicable-Electronic-Association.github.io
+  repo: AEA-UESTC/AEA-UESTC.github.io
   repoId: R_kgDOOO7StA
   category: Giscus Comments
   categoryId: DIC_kwDOOO7StM4CoeMd
@@ -328,9 +328,9 @@ giscus:
 
 algolia_search:
   enable: true
-  appID:
-  apiKey:
-  indexName:
+  appID: RXXA5XBII8
+  apiKey: 2ba8bdfae0162fcd25d24bce22833dd7
+  indexName: AEA-Official-Search
   hits:
     per_page: 10
   labels:
@@ -449,9 +449,9 @@ sponsor:
   enable: true
   tip: 向你协投喂！
   icon:
-    url: "../images/taichi.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
-    rotate: true
-    mask: true # whether to use the images as a mask
+    url: "../images/Services/github.gif" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
+    rotate: false
+    mask: false # whether to use the images as a mask
   qr:
     - name: 支付宝
       src: "sponsor/alipay.png"
