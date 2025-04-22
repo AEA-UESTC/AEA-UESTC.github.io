@@ -42,13 +42,13 @@ lastmod: 2025-03-27T00:00:00+08:00
 ## AEA 开放平台
 
 <div class = "services-grid">
-{{<externalLinkCard title="AEA Bilibili官方" link="https://space.bilibili.com/512380538" cover="/images/AEA_Logo.png">}}
+{{<externalLinkCard title="AEA Bilibili官方" link="//space.bilibili.com/512380538" cover="/images/AEA_Logo.png">}}
 
-{{<externalLinkCard title="AEA Github组织" link="https://github.com/AEA-UESTC" cover="/images/Services/github.gif">}}
+{{<externalLinkCard title="AEA Github组织" link="//github.com/AEA-UESTC" cover="/images/Services/github.gif">}}
 
-{{<externalLinkCard title="AEA 嘉立创开源广场" link="https://oshwhub.com/kongyouxether/works" cover="/images/Services/jlc.jpeg">}}
+{{<externalLinkCard title="AEA 嘉立创开源广场" link="//oshwhub.com/kongyouxether/works" cover="/images/Services/jlc.jpeg">}}
 
-{{<externalLinkCard title="AEA 官方飞书平台" link="https://zcngu4sh2gpe.feishu.cn" cover="/images/Services/lark.png">}}
+{{<externalLinkCard title="AEA 官方飞书平台" link="//zcngu4sh2gpe.feishu.cn" cover="/images/Services/lark.png">}}
 </div>
 
 ## AEA 内网服务
