@@ -23,7 +23,7 @@ cover: "/covers/Samba.jpg"
 - 最后，您可以重命名该驱动器为您喜欢的名字。
 
 **注意事项：**
-- 1. 如果密码更改，请使用`DosDeviceInspector.exe`，按照[这个博客的教程]("https://xiwaer.com/647.html")，删除旧的映射信息，重新按照上述密码登录并连接。
+- 1. 如果密码更改，请使用`DosDeviceInspector.exe`，按照[这个博客的教程](https://xiwaer.com/647.html)，删除旧的映射信息，重新按照上述密码登录并连接。
 - 2. 该账号拥有对目录的全部权限（777），因此，各位成员若要存储个人数据，请在根目录建立名为*你的名字+file*的文件夹。并**请注意一定不要随意删除其他人的文件！否则，等着线下真人快打吧(doge)**。
 
 *AEA Network Maintaince Group*
