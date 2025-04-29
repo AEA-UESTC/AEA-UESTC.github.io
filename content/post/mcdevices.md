@@ -1,6 +1,6 @@
 ---
-title: '全设备使用手册'
-date = '2025-04-29T17:30:00+08:00'
+title: 'AEA MC服务器全设备使用手册'
+date: '2025-04-29T17:00:00+08:00'
 cover: "/covers/witcher.png"
 ---
 
