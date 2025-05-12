@@ -18,7 +18,7 @@ cover: "/covers/witcher.png"
 
 # 阅前必看
 1. 手册说明的步骤均为具体方块的坐标，请知道如何使用F3调试页面右下角的`target block`**定位方块**，注意，这里指的不是左上角的玩家坐标
-2. 除非有特殊说明，**请不要变动**步骤中未提及的方块与实体，包括放置、破坏、容器取出、容器放入、开关门，除非你对这台机器的原理非常了解
+2. 在无特殊说明情况下，**请不要变动**步骤中未提及的方块与实体，包括放置、破坏、容器(**尤其是漏斗**)取出、容器放入，除非你对这台机器的原理非常了解
 3. 尽量不要只拿取不刷取，保证物资平衡
 4. 在不确定时，向服务器内或身边的人**求助**也是一个不错的选择
 
@@ -39,7 +39,7 @@ cover: "/covers/witcher.png"
 [![](https://zh.minecraft.wiki/images/Invicon_Lapis_Lazuli.png "青金石")](#刷铁机)
 [![](https://zh.minecraft.wiki/images/Invicon_Amethyst_Shard.png "紫水晶碎片")](#钻石盾构机)
 [![](https://zh.minecraft.wiki/images/Invicon_Diamond.png "钻石")](#钻石盾构机)
-[![](https://zh.minecraft.wiki/images/Invicon_Emerald.png "绿宝石")](#制箭师交易所)
+[![](https://zh.minecraft.wiki/images/Invicon_Emerald.png "绿宝石")](#村民交易所)
 [![](https://zh.minecraft.wiki/images/Invicon_Ancient_Debris.png "远古残骸")](#远古残骸盾构机)
 {{% /icon-gallery %}}
 
@@ -50,7 +50,7 @@ cover: "/covers/witcher.png"
 [![](https://zh.minecraft.wiki/images/Invicon_Wither_Skeleton_Skull.png "凋零骷髅头")](#凋零骷髅塔)
 [![](https://zh.minecraft.wiki/images/Invicon_Nether_Star.gif "下界之星")](#凋灵农场)
 [![](https://zh.minecraft.wiki/images/Invicon_String.png "线")](#猪灵交易所)
-[![](https://zh.minecraft.wiki/images/Invicon_Spider_Eye.png "蜘蛛眼")](#)
+[![](https://zh.minecraft.wiki/images/Invicon_Spider_Eye.png "蜘蛛眼")](#女巫塔)
 [![](https://zh.minecraft.wiki/images/Invicon_Gunpowder.png "火药")](#火药塔)
 [![](https://zh.minecraft.wiki/images/Invicon_Ghast_Tear.png "恶魂之泪")](#恶魂塔)
 [![](https://zh.minecraft.wiki/images/Invicon_Blaze_Rod.png "烈焰棒")](#烈焰人农场)
@@ -65,7 +65,7 @@ cover: "/covers/witcher.png"
 - 食物与农牧产品
 {{% icon-gallery %}}
 [![](https://zh.minecraft.wiki/images/Invicon_Enchanted_Apple.png "金苹果")](#萝卜农场)
-[![](https://zh.minecraft.wiki/images/Invicon_Apple.png "苹果")](#树场)
+[![](https://zh.minecraft.wiki/images/Invicon_Apple.png "苹果")](#全树种树场)
 [![](https://zh.minecraft.wiki/images/Invicon_Golden_Carrot.png "金胡萝卜")](#萝卜农场)
 [![](https://zh.minecraft.wiki/images/Invicon_Carrot.png "胡萝卜")](#萝卜农场)
 [![](https://zh.minecraft.wiki/images/Invicon_Potato.png "马铃薯")](#催熟机)
@@ -73,47 +73,49 @@ cover: "/covers/witcher.png"
 [![](https://zh.minecraft.wiki/images/Invicon_Beetroot.png "甜菜根")](#催熟机)
 [![](https://zh.minecraft.wiki/images/Invicon_Melon.png "西瓜")](#末影人复合农场)
 [![](https://zh.minecraft.wiki/images/Invicon_Pumpkin.png "南瓜")](#末影人复合农场)
-[![](https://zh.minecraft.wiki/images/Invicon_Sugar_Cane.png "甘蔗" )](#TOBEFILLED)
+[![](https://zh.minecraft.wiki/images/Invicon_Sugar_Cane.png "甘蔗" )](#甘蔗农场)
 [![](https://zh.minecraft.wiki/images/Invicon_Nether_Wart.png "地狱疣")](#药水酿造机)
 [![](https://zh.minecraft.wiki/images/Invicon_Cooked_Porkchop.png "熟猪排")](#疣猪兽农场)
 [![](https://zh.minecraft.wiki/images/Invicon_Cooked_Cod.png "熟鳕鱼")](#守卫者农场)
-[![](https://zh.minecraft.wiki/images/Invicon_Leather.png "皮革")](#TOBEFILLED)
-[![](https://zh.minecraft.wiki/images/Invicon_Blue_Dye.png "染料")](#TOBEFILLED)
-[![](https://zh.minecraft.wiki/images/Invicon_White_Wool.png "羊毛")](#TOBEFILLED)
-
+[![](https://zh.minecraft.wiki/images/Invicon_Leather.png "皮革")](#猪灵交易所)
+[![](/images/mc_devices/minecraft_dyes.gif "染料")](#染料工厂)
+[![](/images/mc_devices/minecraft_woods.gif "羊毛")](#全色空盒/羊毛仓库)
 {{% /icon-gallery %}}
 
-- 饮品
+- 工具与实用物品
 {{% icon-gallery %}}
+[![](https://zh.minecraft.wiki/images/Invicon_Firework_Rocket.png "烟花火箭")](#烟花火箭合成站)
+[![](https://zh.minecraft.wiki/images/Invicon_Totem_of_Undying.png "不死图腾")](#袭击塔)
+[![](https://zh.minecraft.wiki/images/Invicon_Lava_Bucket.png "岩浆桶")](#岩浆机)
 [![](https://zh.minecraft.wiki/images/Invicon_Splash_Potion_of_Oozing.png "喷溅型渗浆药水")](#药水酿造机)
 [![](https://zh.minecraft.wiki/images/Invicon_Splash_Potion_of_Infestation.png "喷溅型虫蚀药水")](#药水酿造机)
 [![](https://zh.minecraft.wiki/images/Invicon_Splash_Potion_of_Weakness.png "喷溅型虚弱药水")](#药水酿造机)
 [![](https://zh.minecraft.wiki/images/Invicon_Potion_of_Fire_Resistance.png "抗火药水延长版")](#药水酿造机)
 [![](https://zh.minecraft.wiki/images/Invicon_Potion_of_Night_Vision.png "夜视药水延长版")](#药水酿造机)
 [![](https://zh.minecraft.wiki/images/Invicon_Potion_of_Invisibility.png "隐形药水延长版")](#药水酿造机)
-[![](https://zh.minecraft.wiki/images/Invicon_Water_Bucket.png "水桶")](#岩浆机)
-[![](https://zh.minecraft.wiki/images/Invicon_Lava_Bucket.png "岩浆桶")](#岩浆机)
 {{% /icon-gallery %}}
 
-- 基础方块
+- 自然方块/基础方块
 {{% icon-gallery %}}
-[![](https://zh.minecraft.wiki/images/Invicon_Oak_Log.png?e3a3f "原木")](#树场)
-[![](https://zh.minecraft.wiki/images/Invicon_Birch_Log.png "白桦木原木")](#树场)
-[![](https://zh.minecraft.wiki/images/Invicon_Spruce_Log.png "云杉木原木")](#树场)
-[![](https://zh.minecraft.wiki/images/Invicon_Acacia_Log.png "金合欢木原木")](#树场)
-[![](https://zh.minecraft.wiki/images/Invicon_Cherry_Log.png "樱花木原木")](#树场)
+[![](/images/mc_devices/minecraft_logs.gif "原木")](#树场)
 [![](https://zh.minecraft.wiki/images/Invicon_Cobblestone.png "圆石")](#刷石机)
-[![](https://zh.minecraft.wiki/images/Invicon_Sand.png "沙子")](#刷沙机)
-[![](https://zh.minecraft.wiki/images/Invicon_White_Concrete_Powder.png "混凝土粉末")](#刷沙机)
+[![](/images/mc_devices/minecraft_falling_block.gif "沙子/红沙/沙砾")](#重力方块复制机)
+[![](/images/mc_devices/minecraft_Concrete_Powder.gif "混凝土粉末")](#重力方块复制机)
+[![](/images/mc_devices/minecraft_Concrete.gif "混凝土")](#重力方块复制机)
 [![](https://zh.minecraft.wiki/images/Invicon_Obsidian.png "黑曜石")](#黑曜石机)
 [![](https://zh.minecraft.wiki/images/Invicon_Soul_Sand.png "灵魂沙")](#猪灵交易所)
 {{% /icon-gallery %}}
 
-# 主世界
-## 珍珠召回器（出生点）
-一个建立在出生点的珍珠召回器，能够通过指定手段将玩家传送到此处
+- 功能方块
+{{% icon-gallery %}}
+[![](/images/mc_devices/minecraft_Shulker_Box.gif "潜影盒")](#全色空盒/羊毛仓库)
+[![](https://zh.minecraft.wiki/images/Invicon_Anvil.png "铁砧")](#重力方块复制机)
+{{% /icon-gallery %}}
 
-**使用说明**
+- 红石
+{{% icon-gallery %}}
+[![](/images/mc_devices/minecraft_railway.gif "铁轨")](#刷铁轨机)
+{{% /icon-gallery %}}
 
 
 ## 火药塔
@@ -172,7 +174,7 @@ cover: "/covers/witcher.png"
 
 ## 高速熔炉组
 一个建立在北海的320核心高速熔炉组
-- **产出：** 任意盒装熔炼配方输出
+- **产出：** 任意散装熔炼配方输出(115200/h)(-任意盒装熔炼配方输出)
 - **输入：** 任意盒装熔炼配方输入
 - **坐标：** 
 - **挂机构型：** 主动式
@@ -392,6 +394,15 @@ cover: "/covers/witcher.png"
 - **挂机构型：** 连点式
 - **维度构型：** 半双维度(GOLDSLAVE)
 
+仅当主世界存在玩家时，运行此命令
+```bash
+/player bot_zpm spawn at 611 230 848 facing ~ ~ in minecraft:overworld
+```
+并在完成挂机后运行此命令
+```bash
+/player bot_zpm kill
+```
+
 **使用说明**
 - 1. 根据产物需求调整`()@下界`的`拉杆`切换散装与盒装输出
 - 2. 站在`()@下界`的`白色玻璃`上
@@ -402,6 +413,7 @@ cover: "/covers/witcher.png"
 
 **风险提示**
 - `🟨物资损失`：使用小于0.5s周期的连点将损坏盔甲架，导致无法高效处死
+- `🟨物资损失`：使用包含击退或火焰附加的武器将损坏盔甲架，导致无法高效处死
 - `🟨机器缺陷`：此机器有一部分建立在玄武岩三角洲中，长期挂机收容通道将被岩浆怪卡死
 - `🟥玩家死亡`：任何误放置的满足猪人生成的方块将触发僵尸增援，会在收容区域外生成僵尸猪人，导致玩家死亡
 
@@ -434,6 +446,7 @@ cover: "/covers/witcher.png"
 **风险提示**
 - `🟨机器缺陷`：由于[MC-271630](https://blog.fallenbreath.me/zh-CN/2024/fortress-nether-bricks-pack-spawning-issue-1182/)漏洞，此机器产出可能不达预期，在1.21.5得到修复，请等待升级
 - `🟨物资损失`：使用小于0.5s周期的连点将损坏盔甲架，导致无法高效处死
+- `🟨物资损失`：使用包含击退或火焰附加的武器将损坏盔甲架，导致无法高效处死
 
 ## 恶魂塔
 <img src="/images/mc_devices/eoe_tower.png" alt="恶魂塔" title="恶魂塔" style="width:50%;">
@@ -508,6 +521,19 @@ cover: "/covers/witcher.png"
 - `🟥坏档`：在机器运行靠近此设备将导致存档损坏
 - `🟥损坏`：在机器运行靠近此设备将导致机器损坏
 - `🟥玩家死亡`：未持有抗火药水的玩家难以在盾构区的岩浆中自由运动，可能会导致死亡
+
+# 蜜蜂农场
+一个建立在下界的蜜蜂农场，可以让蜜蜂24小时产出蜂蜜与蜜脾
+- **产出：** **蜜脾(1k5/h)**、**蜂蜜瓶(3k/h)(-蜂蜜块)**
+- **输入：** 无
+- **坐标：** 
+- **挂机构型：** 被动式
+- **维度构型：** 单维度
+
+**使用说明**
+- 拉下位于`()`的`拉杆`，启动地狱门加载器，即可使机器保持运行
+- 在`()`的`箱子`中拿取蜜脾
+- 在`()`的`箱子`中拿取蜂蜜块
 
 # 末地
 
