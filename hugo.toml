@@ -22,3 +22,7 @@ notAlternative = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[markup.highlight]
+guessSyntax = true
+noClasses = false

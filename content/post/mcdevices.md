@@ -1,7 +1,7 @@
 ---
 title: 'AEA MC服务器全设备使用手册'
 date: '2025-04-29T17:00:00+08:00'
-cover: "/covers/witcher.png"
+cover: "/covers/fallen72k.png"
 ---
 
 <style>
@@ -17,21 +17,22 @@ cover: "/covers/witcher.png"
 </style>
 
 # 阅前必看
-1. 手册说明的步骤均为具体方块的坐标，请知道如何使用F3调试页面右下角的`target block`**定位方块**，注意，这里指的不是左上角的玩家坐标
-2. 除非有特殊说明，**请不要变动**步骤中未提及的方块与实体，包括放置、破坏、容器取出、容器放入、开关门，除非你对这台机器的原理非常了解
+1. 手册说明的步骤均指示在具体方块的坐标，请知道如何使用F3调试页面右下角的`target block`**定位方块**，注意，这里指的不是左上角的玩家坐标
+2. 在无特殊说明情况下，**请不要变动**步骤中未提及的方块与实体，包括放置、破坏、容器取出(**尤其是漏斗**)、容器放入，除非你对这台机器的原理非常了解
 3. 尽量不要只拿取不刷取，保证物资平衡
 4. 在不确定时，向服务器内或身边的人**求助**也是一个不错的选择
 
 # 物资列表
 截至目前，以下物资能够以远超一般手段的效率获取，下列图标是最高效产出点的链接。
 
->以下产物的不在此列出
+> 以下产物的不在此列出
 > - 单一配方前后级**衍生物资**，包括合成、烧炼、生长（如列出金锭就不会列出金块；列出金合欢原木就不会列出金合欢树苗、金合欢栅栏门等）
 > - 虽然能通过**村民交易/以物易物**获得，但(/村民天)产出远少于主流获取方法(/小时)产出的物资（如苹果在村民交易中为128/村民天，但主流深色橡树树场产出为1000/h，即便深色橡树树场未实装，也不会列出苹果）
 
 - 矿物
 {{% icon-gallery %}}
 [![](https://zh.minecraft.wiki/images/Invicon_Coal.png "煤炭")](#凋零骷髅塔)
+[![](https://zh.minecraft.wiki/images/Invicon_Copper_Ingot.png "铜锭")](#溺尸塔)
 [![](https://zh.minecraft.wiki/images/Invicon_Iron_Ingot.png "铁锭")](#刷铁机)
 [![](https://zh.minecraft.wiki/images/Invicon_Gold_Ingot.png "金锭")](#僵尸猪人塔)
 [![](https://zh.minecraft.wiki/images/Invicon_Nether_Quartz.png "下界石英")](#猪灵交易所)
@@ -39,7 +40,7 @@ cover: "/covers/witcher.png"
 [![](https://zh.minecraft.wiki/images/Invicon_Lapis_Lazuli.png "青金石")](#刷铁机)
 [![](https://zh.minecraft.wiki/images/Invicon_Amethyst_Shard.png "紫水晶碎片")](#钻石盾构机)
 [![](https://zh.minecraft.wiki/images/Invicon_Diamond.png "钻石")](#钻石盾构机)
-[![](https://zh.minecraft.wiki/images/Invicon_Emerald.png "绿宝石")](#制箭师交易所)
+[![](https://zh.minecraft.wiki/images/Invicon_Emerald.png "绿宝石")](#村民交易所)
 [![](https://zh.minecraft.wiki/images/Invicon_Ancient_Debris.png "远古残骸")](#远古残骸盾构机)
 {{% /icon-gallery %}}
 
@@ -50,7 +51,7 @@ cover: "/covers/witcher.png"
 [![](https://zh.minecraft.wiki/images/Invicon_Wither_Skeleton_Skull.png "凋零骷髅头")](#凋零骷髅塔)
 [![](https://zh.minecraft.wiki/images/Invicon_Nether_Star.gif "下界之星")](#凋灵农场)
 [![](https://zh.minecraft.wiki/images/Invicon_String.png "线")](#猪灵交易所)
-[![](https://zh.minecraft.wiki/images/Invicon_Spider_Eye.png "蜘蛛眼")](#)
+[![](https://zh.minecraft.wiki/images/Invicon_Spider_Eye.png "蜘蛛眼")](#女巫塔)
 [![](https://zh.minecraft.wiki/images/Invicon_Gunpowder.png "火药")](#火药塔)
 [![](https://zh.minecraft.wiki/images/Invicon_Ghast_Tear.png "恶魂之泪")](#恶魂塔)
 [![](https://zh.minecraft.wiki/images/Invicon_Blaze_Rod.png "烈焰棒")](#烈焰人农场)
@@ -65,7 +66,7 @@ cover: "/covers/witcher.png"
 - 食物与农牧产品
 {{% icon-gallery %}}
 [![](https://zh.minecraft.wiki/images/Invicon_Enchanted_Apple.png "金苹果")](#萝卜农场)
-[![](https://zh.minecraft.wiki/images/Invicon_Apple.png "苹果")](#树场)
+[![](https://zh.minecraft.wiki/images/Invicon_Apple.png "苹果")](#全树种树场)
 [![](https://zh.minecraft.wiki/images/Invicon_Golden_Carrot.png "金胡萝卜")](#萝卜农场)
 [![](https://zh.minecraft.wiki/images/Invicon_Carrot.png "胡萝卜")](#萝卜农场)
 [![](https://zh.minecraft.wiki/images/Invicon_Potato.png "马铃薯")](#催熟机)
@@ -73,47 +74,55 @@ cover: "/covers/witcher.png"
 [![](https://zh.minecraft.wiki/images/Invicon_Beetroot.png "甜菜根")](#催熟机)
 [![](https://zh.minecraft.wiki/images/Invicon_Melon.png "西瓜")](#末影人复合农场)
 [![](https://zh.minecraft.wiki/images/Invicon_Pumpkin.png "南瓜")](#末影人复合农场)
-[![](https://zh.minecraft.wiki/images/Invicon_Sugar_Cane.png "甘蔗" )](#TOBEFILLED)
+[![](https://zh.minecraft.wiki/images/Invicon_Sugar_Cane.png "甘蔗" )](#甘蔗农场)
 [![](https://zh.minecraft.wiki/images/Invicon_Nether_Wart.png "地狱疣")](#药水酿造机)
 [![](https://zh.minecraft.wiki/images/Invicon_Cooked_Porkchop.png "熟猪排")](#疣猪兽农场)
-[![](https://zh.minecraft.wiki/images/Invicon_Cooked_Cod.png "熟鳕鱼")](#守卫者农场)
-[![](https://zh.minecraft.wiki/images/Invicon_Leather.png "皮革")](#TOBEFILLED)
-[![](https://zh.minecraft.wiki/images/Invicon_Blue_Dye.png "染料")](#TOBEFILLED)
-[![](https://zh.minecraft.wiki/images/Invicon_White_Wool.png "羊毛")](#TOBEFILLED)
-
+[![](/images/mc_devices/minecraft_fish.gif "生鳕鱼/生鲑鱼/热带鱼")](#守卫者农场)
+[![](https://zh.minecraft.wiki/images/Invicon_Pufferfish.png "河豚")](#守卫者农场)
+[![](https://zh.minecraft.wiki/images/Invicon_Leather.png "皮革")](#猪灵交易所)
+[![](https://zh.minecraft.wiki/images/Invicon_Nautilus_Shell.png "鹦鹉螺壳")](#溺尸塔)
+[![](/images/mc_devices/minecraft_dyes.gif "染料")](#染料工厂)
+[![](/images/mc_devices/minecraft_woods.gif "羊毛")](#全色空盒/羊毛仓库)
 {{% /icon-gallery %}}
 
-- 饮品
+- 工具与实用物品
 {{% icon-gallery %}}
+[![](https://zh.minecraft.wiki/images/Invicon_Firework_Rocket.png "烟花火箭")](#烟花火箭合成站)
+[![](https://zh.minecraft.wiki/images/Invicon_Totem_of_Undying.png "不死图腾")](#袭击塔)
+[![](https://zh.minecraft.wiki/images/Invicon_Trident.png "三叉戟")](#溺尸塔)
+[![](https://zh.minecraft.wiki/images/Invicon_Lava_Bucket.png "岩浆桶")](#岩浆机)
 [![](https://zh.minecraft.wiki/images/Invicon_Splash_Potion_of_Oozing.png "喷溅型渗浆药水")](#药水酿造机)
 [![](https://zh.minecraft.wiki/images/Invicon_Splash_Potion_of_Infestation.png "喷溅型虫蚀药水")](#药水酿造机)
 [![](https://zh.minecraft.wiki/images/Invicon_Splash_Potion_of_Weakness.png "喷溅型虚弱药水")](#药水酿造机)
 [![](https://zh.minecraft.wiki/images/Invicon_Potion_of_Fire_Resistance.png "抗火药水延长版")](#药水酿造机)
 [![](https://zh.minecraft.wiki/images/Invicon_Potion_of_Night_Vision.png "夜视药水延长版")](#药水酿造机)
 [![](https://zh.minecraft.wiki/images/Invicon_Potion_of_Invisibility.png "隐形药水延长版")](#药水酿造机)
-[![](https://zh.minecraft.wiki/images/Invicon_Water_Bucket.png "水桶")](#岩浆机)
-[![](https://zh.minecraft.wiki/images/Invicon_Lava_Bucket.png "岩浆桶")](#岩浆机)
 {{% /icon-gallery %}}
 
-- 基础方块
+- 自然方块/基础方块
 {{% icon-gallery %}}
-[![](https://zh.minecraft.wiki/images/Invicon_Oak_Log.png?e3a3f "原木")](#树场)
-[![](https://zh.minecraft.wiki/images/Invicon_Birch_Log.png "白桦木原木")](#树场)
-[![](https://zh.minecraft.wiki/images/Invicon_Spruce_Log.png "云杉木原木")](#树场)
-[![](https://zh.minecraft.wiki/images/Invicon_Acacia_Log.png "金合欢木原木")](#树场)
-[![](https://zh.minecraft.wiki/images/Invicon_Cherry_Log.png "樱花木原木")](#树场)
+[![](/images/mc_devices/minecraft_logs.gif "原木")](#树场)
 [![](https://zh.minecraft.wiki/images/Invicon_Cobblestone.png "圆石")](#刷石机)
-[![](https://zh.minecraft.wiki/images/Invicon_Sand.png "沙子")](#刷沙机)
-[![](https://zh.minecraft.wiki/images/Invicon_White_Concrete_Powder.png "混凝土粉末")](#刷沙机)
+[![](/images/mc_devices/minecraft_falling_block.gif "沙子/红沙/沙砾")](#重力方块复制机)
+[![](/images/mc_devices/minecraft_Concrete_Powder.gif "混凝土粉末")](#重力方块复制机)
+[![](/images/mc_devices/minecraft_Concrete.gif "混凝土")](#重力方块复制机)
 [![](https://zh.minecraft.wiki/images/Invicon_Obsidian.png "黑曜石")](#黑曜石机)
 [![](https://zh.minecraft.wiki/images/Invicon_Soul_Sand.png "灵魂沙")](#猪灵交易所)
+[![](/images/mc_devices/minecraft_ice.gif "冰/浮冰/蓝冰")](#制冰机)
 {{% /icon-gallery %}}
 
-# 主世界
-## 珍珠召回器（出生点）
-一个建立在出生点的珍珠召回器，能够通过指定手段将玩家传送到此处
+- 功能方块与功能
+{{% icon-gallery %}}
+[![](/images/mc_devices/minecraft_Shulker_Box.gif "潜影盒")](#全色空盒/羊毛仓库)
+[![](https://zh.minecraft.wiki/images/Invicon_Anvil.png "铁砧")](#重力方块复制机)
+[![](https://zh.minecraft.wiki/images/Invicon_Furnace.png "烧炼")](#高速熔炉组)
+{{% /icon-gallery %}}
 
-**使用说明**
+
+- 红石
+{{% icon-gallery %}}
+[![](/images/mc_devices/minecraft_railway.gif "铁轨")](#刷铁轨机)
+{{% /icon-gallery %}}
 
 
 ## 火药塔
@@ -148,8 +157,65 @@ cover: "/covers/witcher.png"
 - `🟨机器缺陷`：劫掠兽有极小概率被挤出机器，需要玩家手动清理，建议在袭击进度条长期停止下降后检查周围
 
 ## 守卫者农场
-一个建立在海底神殿的守卫者生成结构
-- **产出：** 海晶碎片、海晶砂粒、熟鳕鱼
+一个建立在北海海底神殿的守卫者生成结构
+- **产出：** 海晶碎片(400k/h)(-海晶石/海晶石砖-盒装海晶石/盒装海晶石砖)、海晶砂粒(160k/h)(-海晶灯-盒装海晶灯)、生鳕鱼(170k/h)、生鲑鱼(1k8/h)、河豚(1k/h)、热带鱼(250/h)
+- **输入：** 无
+- **坐标：** 
+- **挂机构型：** 主动式
+- **维度构型：** 双维度
+
+**使用说明**
+- 1. 确保自己的每件盔甲均为钻石及以上，且拥有保护IV附魔
+- 2. 站在`()@下界`的玻璃上
+- 3. 确保`()@下界`的`粘性活塞`处于缩回状态，如果伸出，拉出`()@下界`的`拉杆`以缩回
+- 4. 确保`()@下界`的`堆肥桶`中有一个盔甲架，如果没有，敲击`()@下界`的`音符盒`以生成
+- 5. 使用`()@下界`的`橡木活版门`使自己进入匍匐姿态
+- 6. 爬行至`()@下界`的`堆肥桶`边缘，回头拉下`()@下界`的`拉杆`同时快速进入堆肥桶
+- 7. 面朝匍匐进入的方向（东），视角俯仰调整为最下
+- 8. 输入如下指令以开始连续攻击
+```bash
+/player 你的ID attack interval 11
+```
+- 9. 输入如下指令以开始生成怪物
+```bash
+/player bot_fs spawn at 143 169 -802 facing ~ ~ in minecraft:overworld
+```
+- 10. 挂机完成后，输入如下指令结束生成并停止攻击
+```bash
+/player bot_fs kill
+```
+
+```bash
+/player 你的ID stop
+```
+
+- 11. 使用珍珠召回器或挖开`()@下界`的`玻璃`、`粘液块`与`盔甲架`以离开，需要将挖掉的方块填回原处
+- 根据物品展示框的提示在物资区域内的`箱子`与`潜影盒`中拿取物资
+
+> 如果认为步骤过于繁琐，可以使用假人代替之，在确保确保`()@下界`的`粘性活塞`处于伸出状态后将步骤1~7替换为如下指令
+> ```bash
+> /player bot_fs_nether spawn at 11.5 143.5 -106.5 facing -90 90 in minecraft:the_nether
+> ```
+> 将步骤8替换为如下指令
+> ```bash
+> /player bot_fs_nether attack interval 11
+> ```
+> 将步骤10~11替换为如下指令
+> ```bash
+> /player bot_fs kill
+> ```
+> ```bash
+> /player bot_fs_nether kill
+> ```
+
+**风险提示**
+- `🟥玩家死亡`：不符合要求的盔甲与连点间隔将导致荆棘与饥饿伤害大于信标回血效果，造成玩家死亡
+- `🟨物资损失`：使用小于0.5s周期的连点将损坏盔甲架，导致无法高效处死
+- `🟨物资损失`：使用包含`击退`或`火焰附加`的武器将损坏盔甲架，导致无法高效处死
+
+## 守卫者农场（旧址）
+一个建立在北海海底神殿的守卫者生成结构
+- **产出：** 海晶碎片(20k/h)、海晶砂粒(16k/h)、熟鳕鱼
 - **输入：** 无
 - **坐标：** 
 - **挂机构型：** 被动式
@@ -161,7 +227,7 @@ cover: "/covers/witcher.png"
 
 ## 黑曜石机
 一个建立在北海的黑曜石生成机器
-- **产出：** **黑曜石(36k/h)**
+- **产出：** **黑曜石(36k/h)(-盒装黑曜石)**
 - **输入：** 灵魂沙、凋零骷髅头
 - **坐标：** 
 - **挂机构型：** 被动式
@@ -172,7 +238,7 @@ cover: "/covers/witcher.png"
 
 ## 高速熔炉组
 一个建立在北海的320核心高速熔炉组
-- **产出：** 任意盒装熔炼配方输出
+- **产出：** 任意散装熔炼配方输出(115k2/h)(-任意盒装熔炼配方输出)
 - **输入：** 任意盒装熔炼配方输入
 - **坐标：** 
 - **挂机构型：** 主动式
@@ -210,8 +276,44 @@ cover: "/covers/witcher.png"
 **风险提示**
 - `🟨物资损失`：使用小于0.5s周期的连点将损坏盔甲架，导致无法高效处死
 
+## 溺尸塔
+一个建立在河流的溺尸生成结构
+- **产出：** 三叉戟(30/h)、鹦鹉螺壳、铜锭
+- **输入：** 无
+- **坐标：** ()@主世界
+- **挂机构型：** 连点式 
+- **维度构型：** 单维度
+**使用说明**
+- 1. 匍匐在`()@主世界的`的`平滑石头半砖`上
+- 2. 使用包含抢夺的武器连续攻击位于`()@主世界`的`溺尸`
+- 在`()@主世界`的`箱子`中拿取物资
+
 ## 染料工厂
 一个建立在草甸的染料工厂
+
+## 制冰机
+一个建立在雪原的制冰机
+- **产出：** **冰(72k/h)(-浮冰-蓝冰-盒装冰-盒装浮冰-盒装蓝冰)**
+- **输入：** 无
+- **坐标：** ()@主世界
+- **挂机构型：** 按压式
+- **维度构型：** 单维度
+
+**使用说明**
+- 1. 刷冰机极度不抗区块卸载，卸载后维修极度困难。因此，虽然机器支持玩家一人挂机，但为抵抗失误或掉线导致的区块卸载，请运行如下指令以解锁主开关锁定
+```bash
+/player bot_ice_au spawn at -2108.5 136.0 109.5 facing ~ ~ in minecraft:overworld
+```
+- 2. 敲击`()`的`音符盒`选择期望输出的冰类型
+- 3. 拉下`()@主世界`的`拉杆`，此时机器已开机，约1分钟后听到爆炸声即为预热完成
+- 4. 站在`()@主世界`的`箱子`上，关闭`()@主世界`的`门`，持续挖掘`()`的`冰`
+- 5. 挖掘完成后，拉回`()@主世界`的`拉杆`，此时机器尚未关机，请等待约5分钟或观察到`()@主世界`的`红石中继器`熄灭后再离开
+- 根据物品展示框的提示在物资区域内的`箱子`与`潜影盒`中拿取物资
+
+**风险提示**
+- `🟥损坏`：在机器运行中或关机冷却中离开将导致核心损坏
+- `🟨物资损失`：经验修补模块为包含`耐久III`与`经验修补`附魔的镐设计，使用不符合附魔要求的镐在长期挂机下会损坏
+- `🟨物资损失`：冰块流为包含`效率V`与`精准采集`附魔，且品质为钻石或下届合金的镐设计，使用不符合附魔要求的镐无法达到预期产出
 
 # 宜宾工业区
 
@@ -335,6 +437,16 @@ cover: "/covers/witcher.png"
 - `🟨机器缺陷`：分类系统的承载能力与输出量不匹配，部分产出会溢出到末端杂物箱中，在樱花原木中表现尤为明显，需要手动存取
 
 ## 全色空盒/羊毛仓库
+一个建立在犀浦工业园的全色空盒与羊毛仓库
+- **产出：** 16色潜影盒、16色羊毛
+- **输入：** 无
+- **坐标：**
+- **挂机构型：** 无
+- **维度构型：** 单维度
+
+**使用说明**
+- 在`()@主世界`的`木桶`中拿取潜影盒
+- 在`()@主世界`的`木桶`中拿取羊毛
 
 ## 史莱姆农场
 一台建设在犀浦工业园的史莱姆生成结构
@@ -359,6 +471,7 @@ cover: "/covers/witcher.png"
 - `🟨物资损失`：每批次的最后一个雪傀儡一定是错位的，多批次的放入雪傀儡将导致雪块回收率下降
 
 ## 药水酿造机
+一个
 
 ## 烟花火箭合成站
 
@@ -392,16 +505,27 @@ cover: "/covers/witcher.png"
 - **挂机构型：** 连点式
 - **维度构型：** 半双维度(GOLDSLAVE)
 
+仅当主世界存在玩家时，需要额外运行此命令以开始生成怪物
+```bash
+/player bot_zpm spawn at 611 230 848 facing ~ ~ in minecraft:overworld
+```
+并在完成挂机后运行此命令
+```bash
+/player bot_zpm kill
+```
+
 **使用说明**
 - 1. 根据产物需求调整`()@下界`的`拉杆`切换散装与盒装输出
 - 2. 站在`()@下界`的`白色玻璃`上
-- 3. 使用包含抢夺的武器连续攻击位于`()@下界`的`盔甲架`下半部分
+- 3. 生成假人`bot_zpm`（如有需要）
+- 4. 使用包含抢夺的武器连续攻击位于`()@下界`的`盔甲架`下半部分
 - 在`()@下届`的`箱子`中拿取腐肉
 - 在`()@下届`的`箱子`中拿取金块
 - 在`()@下届`的`木桶`中拿取盒装金块
 
 **风险提示**
 - `🟨物资损失`：使用小于0.5s周期的连点将损坏盔甲架，导致无法高效处死
+- `🟨物资损失`：使用包含`击退`或`火焰附加`的武器将损坏盔甲架，导致无法高效处死
 - `🟨机器缺陷`：此机器有一部分建立在玄武岩三角洲中，长期挂机收容通道将被岩浆怪卡死
 - `🟥玩家死亡`：任何误放置的满足猪人生成的方块将触发僵尸增援，会在收容区域外生成僵尸猪人，导致玩家死亡
 
@@ -415,7 +539,7 @@ cover: "/covers/witcher.png"
 - **挂机构型：** 连点式
 - **维度构型：** 半双维度
 
-仅当主世界存在玩家时，运行此命令
+仅当主世界存在玩家时，需要额外运行此命令以开始生成怪物
 ```bash
 /player bot_ws spawn at 7827 196 5309 facing ~ ~ in minecraft:overworld
 ```
@@ -427,13 +551,15 @@ cover: "/covers/witcher.png"
 **使用说明**
 - 1. 根据产物需求调整`(974/971 188 665)@下界`的`拉杆`切换散装与盒装输出，红石灯亮起为散装输出，熄灭为盒装输出
 - 2. 站在`(979 194 664)@下界`的`平滑石头`上
-- 3. 使用包含抢夺的武器连续攻击位于`(978 195 664)@下界`的`盔甲架`下半部分
+- 3. 生成假人`bot_ws`（如有需要）
+- 4. 使用包含抢夺的武器连续攻击位于`(978 195 664)@下界`的`盔甲架`下半部分
 - 在`(971~976 188~189 664)@下界`的`箱子`中拿取散装物资
 - 在`(972/975 185 665)@下界`的`箱子`中拿取盒装物资
 
 **风险提示**
 - `🟨机器缺陷`：由于[MC-271630](https://blog.fallenbreath.me/zh-CN/2024/fortress-nether-bricks-pack-spawning-issue-1182/)漏洞，此机器产出可能不达预期，在1.21.5得到修复，请等待升级
 - `🟨物资损失`：使用小于0.5s周期的连点将损坏盔甲架，导致无法高效处死
+- `🟨物资损失`：使用包含`击退`或`火焰附加`的武器将损坏盔甲架，导致无法高效处死
 
 ## 恶魂塔
 <img src="/images/mc_devices/eoe_tower.png" alt="恶魂塔" title="恶魂塔" style="width:50%;">
@@ -509,9 +635,22 @@ cover: "/covers/witcher.png"
 - `🟥损坏`：在机器运行靠近此设备将导致机器损坏
 - `🟥玩家死亡`：未持有抗火药水的玩家难以在盾构区的岩浆中自由运动，可能会导致死亡
 
+## 蜜蜂农场
+一个建立在下界的蜜蜂农场，可以让蜜蜂24小时产出蜂蜜与蜜脾
+- **产出：** **蜜脾(1k5/h)**、**蜂蜜瓶(3k/h)(-蜂蜜块)**
+- **输入：** 无
+- **坐标：** 
+- **挂机构型：** 被动式
+- **维度构型：** 单维度
+
+**使用说明**
+- 拉下位于`()`的`拉杆`，启动地狱门加载器，即可使机器保持运行
+- 在`()`的`箱子`中拿取蜜脾
+- 在`()`的`箱子`中拿取蜂蜜块
+
 # 末地
 
-## 末影人复合塔
+## 末影人复合农场
 一个建立在末地主岛外环的末影人生成结构，兼具凋零玫瑰、作物的产出
 - **产出：** **末影珍珠(10k/h)**、**凋零玫瑰(10k/h)**、西瓜、南瓜
 - **输入：** 无
@@ -548,7 +687,7 @@ cover: "/covers/witcher.png"
 - 在`()`的`箱子`中拿取物资
 
 **风险提示**
-- `🟥收容失效`：使用包含击退的武器攻击会导致凋灵收容失效
+- `🟥收容失效`：使用包含`击退`的武器攻击会导致凋灵收容失效
 
 ## 重力方块复制机
 一个建立在末地传送门的重力方块复制机，具有混凝土固化功能
