@@ -37,8 +37,8 @@ description: '还在手挖？还在手撸？还在手打？还在手种？还在
 [![](https://zh.minecraft.wiki/images/Invicon_Coal.png "煤炭")](#凋零骷髅塔)
 [![](https://zh.minecraft.wiki/images/Invicon_Copper_Ingot.png "铜锭")](#溺尸塔)
 [![](https://zh.minecraft.wiki/images/Invicon_Iron_Ingot.png "铁锭")](#刷铁机)
-[![](https://zh.minecraft.wiki/images/Invicon_Gold_Ingot.png "金锭")](#僵尸猪人塔)
-[![](https://zh.minecraft.wiki/images/Invicon_Nether_Quartz.png "下界石英")](#猪灵交易所)
+[![](https://zh.minecraft.wiki/images/Invicon_Gold_Ingot.png "金锭")](#僵尸猪人塔-堆门构型)
+[![](https://zh.minecraft.wiki/images/Invicon_Nether_Quartz.png "下界石英")](#猪灵交易所-540核心)
 [![](https://zh.minecraft.wiki/images/Invicon_Redstone.png "红石")](#女巫塔)
 [![](https://zh.minecraft.wiki/images/Invicon_Lapis_Lazuli.png "青金石")](#刷铁机)
 [![](https://zh.minecraft.wiki/images/Invicon_Amethyst_Shard.png "紫水晶碎片")](#钻石盾构机)
@@ -49,11 +49,11 @@ description: '还在手挖？还在手撸？还在手打？还在手种？还在
 
 - 怪物掉落
 {{% icon-gallery %}}
-[![](https://zh.minecraft.wiki/images/Invicon_Rotten_Flesh.png "腐肉")](#僵尸猪人塔)
+[![](https://zh.minecraft.wiki/images/Invicon_Rotten_Flesh.png "腐肉")](#僵尸猪人塔-堆门构型)
 [![](https://zh.minecraft.wiki/images/Invicon_Bone.png "骨头")](#凋零骷髅塔)
 [![](https://zh.minecraft.wiki/images/Invicon_Wither_Skeleton_Skull.png "凋零骷髅头")](#凋零骷髅塔)
 [![](https://zh.minecraft.wiki/images/Invicon_Nether_Star.gif "下界之星")](#凋灵农场)
-[![](https://zh.minecraft.wiki/images/Invicon_String.png "线")](#猪灵交易所)
+[![](https://zh.minecraft.wiki/images/Invicon_String.png "线")](#猪灵交易所-540核心)
 [![](https://zh.minecraft.wiki/images/Invicon_Spider_Eye.png "蜘蛛眼")](#女巫塔)
 [![](https://zh.minecraft.wiki/images/Invicon_Gunpowder.png "火药")](#火药塔)
 [![](https://zh.minecraft.wiki/images/Invicon_Ghast_Tear.png "恶魂之泪")](#恶魂塔)
@@ -80,9 +80,9 @@ description: '还在手挖？还在手撸？还在手打？还在手种？还在
 [![](https://zh.minecraft.wiki/images/Invicon_Sugar_Cane.png "甘蔗" )](#甘蔗农场)
 [![](https://zh.minecraft.wiki/images/Invicon_Nether_Wart.png "地狱疣")](#药水酿造机)
 [![](https://zh.minecraft.wiki/images/Invicon_Cooked_Porkchop.png "熟猪排")](#疣猪兽农场)
-[![](/images/mc_devices/minecraft_fish.gif "生鳕鱼/生鲑鱼/热带鱼")](#守卫者农场)
-[![](https://zh.minecraft.wiki/images/Invicon_Pufferfish.png "河豚")](#守卫者农场)
-[![](https://zh.minecraft.wiki/images/Invicon_Leather.png "皮革")](#猪灵交易所)
+[![](/images/mc_devices/minecraft_fish.gif "生鳕鱼/生鲑鱼/热带鱼")](#守卫者农场-气泡柱掠夺构型))
+[![](https://zh.minecraft.wiki/images/Invicon_Pufferfish.png "河豚")](#守卫者农场-气泡柱掠夺构型))
+[![](https://zh.minecraft.wiki/images/Invicon_Leather.png "皮革")](#猪灵交易所-540核心)
 [![](https://zh.minecraft.wiki/images/Invicon_Nautilus_Shell.png "鹦鹉螺壳")](#溺尸塔)
 [![](/images/mc_devices/minecraft_dyes.gif "染料")](#染料工厂)
 [![](/images/mc_devices/minecraft_woods.gif "羊毛")](#全色空盒/羊毛仓库)
@@ -110,7 +110,7 @@ description: '还在手挖？还在手撸？还在手打？还在手种？还在
 [![](/images/mc_devices/minecraft_Concrete_Powder.gif "混凝土粉末")](#重力方块复制机)
 [![](/images/mc_devices/minecraft_Concrete.gif "混凝土")](#重力方块复制机)
 [![](https://zh.minecraft.wiki/images/Invicon_Obsidian.png "黑曜石")](#黑曜石机)
-[![](https://zh.minecraft.wiki/images/Invicon_Soul_Sand.png "灵魂沙")](#猪灵交易所)
+[![](https://zh.minecraft.wiki/images/Invicon_Soul_Sand.png "灵魂沙")](#猪灵交易所-540核心)
 [![](/images/mc_devices/minecraft_ice.gif "冰/浮冰/蓝冰")](#制冰机)
 {{% /icon-gallery %}}
 
@@ -118,7 +118,7 @@ description: '还在手挖？还在手撸？还在手打？还在手种？还在
 {{% icon-gallery %}}
 [![](/images/mc_devices/minecraft_Shulker_Box.gif "潜影盒")](#全色空盒/羊毛仓库)
 [![](https://zh.minecraft.wiki/images/Invicon_Anvil.png "铁砧")](#重力方块复制机)
-[![](https://zh.minecraft.wiki/images/Invicon_Furnace.png "烧炼")](#高速熔炉组)
+[![](https://zh.minecraft.wiki/images/Invicon_Furnace.png "烧炼")](#熔炉组(320核心))
 {{% /icon-gallery %}}
 
 
@@ -127,6 +127,7 @@ description: '还在手挖？还在手撸？还在手打？还在手种？还在
 [![](/images/mc_devices/minecraft_railway.gif "铁轨")](#刷铁轨机)
 {{% /icon-gallery %}}
 
+# 主世界
 
 ## 火药塔
 一个建立在北海的苦力怕生成结构
@@ -159,7 +160,21 @@ description: '还在手挖？还在手撸？还在手打？还在手种？还在
 - `🟥玩家死亡`：对唤魔者的不及时处理会导致仇恨转移至玩家，召唤无法收容的恼鬼，建议使用高等级锋利与横扫之刃的武器进行击杀
 - `🟨机器缺陷`：劫掠兽有极小概率被挤出机器，需要玩家手动清理，建议在袭击进度条长期停止下降后检查周围
 
-## 守卫者农场
+## 守卫者农场-基础构型
+> 🗑️过时设备警告：这台设备在易操作性、效率方面失去优势。已拆除或停止维护
+
+一个建立在北海海底神殿的守卫者生成结构
+- **产出：** 海晶碎片(20k/h)、海晶砂粒(16k/h)、熟鳕鱼
+- **输入：** 无
+- **坐标：** 
+- **挂机构型：** 被动式
+- **维度构型：** 半双维度
+
+**使用说明**
+- 站在`()@主世界`的`脚手架`上挂机，等待产出即可
+- 在`()@下界`的`箱子`拿取输出物资
+
+## 守卫者农场-气泡柱掠夺构型
 一个建立在北海海底神殿的守卫者生成结构
 - **产出：** 海晶碎片(400k/h)(-海晶石/海晶石砖-盒装海晶石/盒装海晶石砖)、海晶砂粒(160k/h)(-海晶灯-盒装海晶灯)、生鳕鱼(170k/h)、生鲑鱼(1k8/h)、河豚(1k/h)、热带鱼(250/h)
 - **输入：** 无
@@ -216,20 +231,6 @@ description: '还在手挖？还在手撸？还在手打？还在手种？还在
 - `🟨物资损失`：使用小于0.5s周期的连点将损坏盔甲架，导致无法高效处死
 - `🟨物资损失`：使用包含`击退`或`火焰附加`的武器将损坏盔甲架，导致无法高效处死
 
-## 守卫者农场（旧址）
-> 🗑️过时设备警告：这台设备在易操作性、产出效率等方面均失去优势。即便没有拆除，也不会有大量存货。
-
-一个建立在北海海底神殿的守卫者生成结构
-- **产出：** 海晶碎片(20k/h)、海晶砂粒(16k/h)、熟鳕鱼
-- **输入：** 无
-- **坐标：** 
-- **挂机构型：** 被动式
-- **维度构型：** 半双维度
-
-**使用说明**
-- 站在`()@主世界`的`脚手架`上挂机，等待产出即可
-- 在`()@下界`的`箱子`拿取输出物资
-
 ## 黑曜石机
 一个建立在北海的黑曜石生成机器
 - **产出：** **黑曜石(36k/h)(-盒装黑曜石)**
@@ -241,7 +242,7 @@ description: '还在手挖？还在手撸？还在手打？还在手种？还在
 **使用说明**
 - 此设备涉及凋灵的固定，仓库包含大量黑曜石，请直接取用，如希望重启请联系建造者MXACZ233
 
-## 高速熔炉组
+## 熔炉组-320核心
 一个建立在北海的320核心高速熔炉组
 - **产出：** 任意散装熔炼配方输出(115k2/h)(-任意盒装熔炼配方输出)
 - **输入：** 任意盒装熔炼配方输入
@@ -342,7 +343,7 @@ description: '还在手挖？还在手撸？还在手打？还在手种？还在
 - **挂机构型：** 无
 - **维度构型：** 单维度
 
-## 刷铁机
+## 刷铁机-2*2核心
 一个建立在犀浦工业园的铁傀儡生成结构
 - **产出：** 铁锭(1600/h)(-铁块)
 - **输入：** 无
@@ -390,7 +391,7 @@ description: '还在手挖？还在手撸？还在手打？还在手种？还在
 - `🟥玩家死亡`：长时间在机器附近会受到TNT伤害导致死亡
 
 ## 苔藓骨粉机
-> 🗑️过时设备警告：这台设备在易操作性、产出效率等方面均失去优势。即便没有拆除，也不会有大量存货。
+> 🗑️过时设备警告：这台设备在易操作性、效率方面失去优势。已拆除或停止维护
 
 一个建立在犀浦工业园的骨粉生成结构
 - **产出：** 骨粉(3k6/h)
@@ -486,7 +487,7 @@ description: '还在手挖？还在手撸？还在手打？还在手种？还在
 
 ## 烟花火箭合成站
 
-## 高速熔炉组（犀浦）
+## 熔炉组-9核心
 
 ## 刷铁轨机（犀浦）
 
@@ -507,59 +508,9 @@ description: '还在手挖？还在手撸？还在手打？还在手种？还在
 
 # 下界
 
-## 僵尸猪人塔(堆门构型)
+## 僵尸猪人塔-基础构型
+> 🗑️过时设备警告：这台设备在易操作性、效率方面失去优势。已拆除或停止维护
 
-一个建立在下界荒地的僵尸猪人生成结构
-- **产出：** **金粒(380k/h)(-`金锭(+10k/h)`-`金块`-`盒装金块`)**、腐肉、羽毛(1k/h)、生鸡肉(1k/h)
-- **输入：** 无
-- **坐标：** 
-- **挂机构型：** 连点式
-- **维度构型：** 双维度
-
-**使用说明**
-- 1. 确保`()@主世界`的`橡木活版门`处于打开状态，确保`()@主世界`的`发射器`收回岩浆
-- 2. 以潜行姿态，站在`()@主世界`的`附魔台`上
-- 3. 关闭`()@主世界`的`橡木活版门`，此时`()@主世界`的`发射器`应喷出岩浆
-- 4. 背靠`()@主世界`的`橡木活版门`并紧贴，瞄准`()@主世界`的`炼药锅`中的盔甲架，输入如下指令以开始连续攻击
-``` bash
-/player 你的名字 attack interval 10
-```
-- 5. 输入如下指令以开始生成
-``` bash
-/player bot_zpm_stack spawn at 551.5 243.00 95.5 facing ~ ~ in minecraft:the_nether
-```
-- 6. 在挂机完成后，输入如下指令
-``` bash
-/player 你的名字 stop
-```
-``` bash
-/player bot_zpm_stack kill
-```
-> 如果认为步骤过于繁琐，可以使用假人代替之，在确保`()@主世界`的`橡木活版门`处于关闭状态后将步骤1~3替换为如下指令
-> ```bash
-/player bot_zpm_stack_ow spawn at 4099.30 172.75 764.53 facing -92.40 -3.30 in minecraft:overworld
-> ```
-> 将步骤4替换为如下指令
-> ```bash
-> /player bot_zpm_stack_ow attack interval 10
-> ```
-> 将步骤6替换为如下指令
-> ```bash
-> /player bot_zpm_stack kill
-> ```
-> 等待约30秒
-> ```bash
-> /player bot_zpm_stack_owr kill
-> ```
-
-**风险提示**
-- `🟨物资损失`：使用小于0.5s周期的连点将损坏盔甲架，导致无法高效处死
-- `🟨物资损失`：使用包含`击退`或`火焰附加`的武器将损坏盔甲架，导致无法高效处死
-- `🟧失能`：在猪人塔附近(主世界端切比雪夫距离小于256，下界端切比雪夫距离小于33，均以传送门方块到传送门方块计算)建立地狱门将打破传送门绑定
-- `🟥玩家死亡`：在较低护甲值挂机的情况下可能会被猪灵包含荆棘附魔的盔甲击杀
-- `🟥玩家死亡`：任何误放置的满足猪人生成的方块将触发僵尸增援，会在收容区域外生成僵尸猪人，导致玩家死亡
-
-## 僵尸猪人塔(基础构型)
 <img src="/images/mc_devices/zpm_tower.png" alt="ZPM Tower" title="ZPM Tower" style="width:50%;">
 
 一个建立在下界荒地的僵尸猪人生成结构
@@ -589,6 +540,58 @@ description: '还在手挖？还在手撸？还在手打？还在手种？还在
 - `🟨物资损失`：使用小于0.5s周期的连点将损坏盔甲架，导致无法高效处死
 - `🟨物资损失`：使用包含`击退`或`火焰附加`的武器将损坏盔甲架，导致无法高效处死
 - `🟨机器缺陷`：此机器有一部分建立在玄武岩三角洲中，长期挂机收容通道将被岩浆怪卡死
+- `🟥玩家死亡`：任何误放置的满足猪人生成的方块将触发僵尸增援，会在收容区域外生成僵尸猪人，导致玩家死亡
+
+## 僵尸猪人塔-堆门构型
+
+一个建立在下界荒地的僵尸猪人生成结构
+- **产出：** **金粒(380k/h)(-金锭(+10k/h)-金块-盒装金块)**、腐肉、羽毛(1k/h)、生鸡肉(1k/h)
+- **输入：** 无
+- **坐标：** 
+- **挂机构型：** 连点式
+- **维度构型：** 双维度
+
+**使用说明**
+- 1. 确保`()@主世界`的`橡木活版门`处于打开状态，确保`()@主世界`的`发射器`收回岩浆
+- 2. 以潜行姿态，站在`()@主世界`的`附魔台`上
+- 3. 关闭`()@主世界`的`橡木活版门`，此时`()@主世界`的`发射器`应喷出岩浆
+- 4. 背靠`()@主世界`的`橡木活版门`并紧贴，瞄准`()@主世界`的`炼药锅`中的盔甲架，输入如下指令以开始连续攻击
+``` bash
+/player 你的名字 attack interval 10
+```
+- 5. 输入如下指令以开始生成
+``` bash
+/player bot_zpm_stack spawn at 551.5 243.00 95.5 facing ~ ~ in minecraft:the_nether
+```
+- 6. 在挂机完成后，输入如下指令
+``` bash
+/player 你的名字 stop
+```
+``` bash
+/player bot_zpm_stack kill
+```
+> 如果认为步骤过于繁琐，可以使用假人代替之，在确保`()@主世界`的`橡木活版门`处于关闭状态后将步骤1~3替换为如下指令
+> ```bash
+>/player bot_zpm_stack_ow spawn at 4099.30 172.75 764.53 facing -92.40 -3.30 in minecraft:overworld
+> ```
+> 将步骤4替换为如下指令
+> ```bash
+> /player bot_zpm_stack_ow attack interval 10
+> ```
+> 将步骤6替换为如下指令
+> ```bash
+> /player bot_zpm_stack kill
+> ```
+> 等待约30秒
+> ```bash
+> /player bot_zpm_stack_ow kill
+> ```
+
+**风险提示**
+- `🟨物资损失`：使用小于0.5s周期的连点将损坏盔甲架，导致无法高效处死
+- `🟨物资损失`：使用包含`击退`或`火焰附加`的武器将损坏盔甲架，导致无法高效处死
+- `🟧失能`：在猪人塔附近(主世界端切比雪夫距离小于256，下界端切比雪夫距离小于33，均以传送门方块到传送门方块计算)建立地狱门将打破传送门绑定
+- `🟥玩家死亡`：在较低护甲值挂机的情况下可能会被猪灵包含荆棘附魔的盔甲击杀
 - `🟥玩家死亡`：任何误放置的满足猪人生成的方块将触发僵尸增援，会在收容区域外生成僵尸猪人，导致玩家死亡
 
 ## 凋零骷髅塔
@@ -657,14 +660,16 @@ description: '还在手挖？还在手撸？还在手打？还在手种？还在
 - **产出：** **岩浆膏**
 - **输入：** 无
 - **坐标：**
-- **挂机构型：- `🟥坏档`：启动后主世界侧收集若长期无人加载将导致材料堆积导致存档损坏** 被动式
+- **挂机构型：** 被动式
 - **维度构型：** 单维度
 
 **使用说明**
 - 1. 站在的`()`的`脚手架`上挂机
 - 在`()`的`箱子`中拿取物资
 
-## 猪灵交易所(48核心)
+## 猪灵交易所-48核心
+> 🗑️过时设备警告：这台设备在易操作性、效率方面失去优势。已拆除或停止维护
+
 利用僵尸猪人塔的金锭换取线、石英等物资的交易场所
 - **产出：** **《灵魂疾行》**、**下界石英**、**线**、铁靴子、铁粒、末影珍珠、黑曜石、哭泣的黑曜石、火焰弹、皮革、灵魂沙、下界砖、光灵箭、沙砾、黑石
 - **输入：** 金锭、金块
@@ -679,9 +684,9 @@ description: '还在手挖？还在手撸？还在手打？还在手种？还在
 **风险提示**
 - `🟨物资损失`：错误、超量的填装均会导致金锭与金块的浪费
 
-## 猪灵交易所(540核心)
+## 猪灵交易所-540核心
 利用僵尸猪人塔的金锭换取线、石英等物资的交易场所
-- **产出：**下界石英(120k/h)(-盒装下界石英)**、(末影珍珠、黑曜石、哭泣的黑曜石、火焰弹、下界砖、光灵箭、沙砾、黑石)(36k/h)(-盒装~)、(皮革、线、灵魂沙)(72k/h)(-盒装~)、铁粒(150k/h)(-铁锭-铁块-盒装铁块)
+- **产出：** **下界石英(120k/h)(-盒装下界石英)**、(末影珍珠、黑曜石、哭泣的黑曜石、火焰弹、下界砖、光灵箭、沙砾、黑石)(36k/h)(-盒装~)、(皮革、线、灵魂沙)(72k/h)(-盒装~)、铁粒(150k/h)(-铁锭-铁块-盒装铁块)
 - **输入：** 盒装金块(20.8/h)
 - **坐标：** 
 - **挂机构型：** 被动式
@@ -695,7 +700,8 @@ description: '还在手挖？还在手撸？还在手打？还在手种？还在
 **风险提示**
 - `🟨物资损失`：启动后主世界侧收集若无人加载将导致材料堆积损失
 - `🟧卡顿`：长期位于交易所附近(17*17区块)将导致大量生物被强加载，从而产生服务器全局卡顿
-- `🟧卡顿`：猪灵交易所的交易核心数与服务器承载量之差仅能容纳一名玩家，在其他玩家在线时使用将产生服务器全局卡顿
+- `🟧卡顿`：猪灵交易所的交易核心数与服务器承载上限之差仅能容纳一名玩家，在其他玩家在线时使用将产生服务器全局卡顿
+- `🟥坏档`：启动后主世界侧收集若长期无人加载将导致材料堆积导致存档损坏
 
 
 ## 远古残骸盾构机
