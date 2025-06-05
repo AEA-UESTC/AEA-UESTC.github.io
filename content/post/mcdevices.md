@@ -561,7 +561,7 @@ description: '还在手挖？还在手撸？还在手打？还在手种？还在
 ```
 - 5. 输入如下指令以开始生成
 ``` bash
-/player bot_zpm_stack spawn at 551.5 243.00 95.5 facing ~ ~ in minecraft:the_nether
+/player bot_zpm_stack spawn at 473.5 243.00 95.5 facing ~ ~ in minecraft:the_nether
 ```
 - 6. 在挂机完成后，输入如下指令
 ``` bash
