@@ -58,7 +58,7 @@ lastmod: 2025-03-27T00:00:00+08:00
 <div class = "services-grid">
 {{<externalLinkCard title="AEA 公用文件资源库" link="http://aea1989.tech/" cover="/images/Services/AEAarchive.png">}}
 
-{{<externalLinkCard title="AEA 远程打印服务" link="www.aea1989.tech/post/printer/" cover="/images/Services/cups.webp">}}
+{{<externalLinkCard title="AEA 远程打印服务" link="//www.aea1989.tech/post/printer/" cover="/images/Services/cups.webp">}}
 
 {{<externalLinkCard title="AEA HomeAssistant" link="http://192.168.1.3:8123/" cover="/images/Services/hass.png">}}
 
@@ -80,7 +80,7 @@ lastmod: 2025-03-27T00:00:00+08:00
 
 {{<externalLinkCard title="AEA TrueNAS" link="http://aeanas.local:1989/" cover="/images/Services/truenas.webp">}}
 
-{{<externalLinkCard title="AEA Debian" link="?" cover="/images/Services/Debian-OpenLogo.svg.png">}}
+{{<externalLinkCard title="AEA Debian" link="//www.aea1989.tech/post/debian/" cover="/images/Services/Debian-OpenLogo.svg.png">}}
 
 {{<externalLinkCard title="AEA ESXI" link="https://192.168.1.126/" cover="/images/Services/esxi.webp">}}
 
@@ -90,7 +90,7 @@ lastmod: 2025-03-27T00:00:00+08:00
 ## 旧版服务
 
 <div class = "services-grid">
-{{<externalLinkCard title="AEA 公告板（已停用）" link="http://aea1989.tech/blackboard/" cover="/images/Services/AEAboard.png">}}
+{{<externalLinkCard title="AEA 公告板（停止更新）" link="http://aea1989.tech/blackboard/" cover="/images/Services/AEAboard.png">}}
 
 {{<externalLinkCard title="AEA Public Server V2" link="http://aea1989.tech/main/" cover="/images/Services/AEAV2.png">}}
 </div>
