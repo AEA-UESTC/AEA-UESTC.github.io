@@ -2,8 +2,10 @@
 mermaid: true
 title: 'AEA MC服务器全设备使用手册(持续更新)'
 date: '2025-05-20T15:50:00-05:00'
-cover: "/covers/fallen72k.png"
+cover: "/covers/fallen72k.jpg"
 description: '还在手挖？还在手撸？还在手打？还在手种？还在手炼？还在手酿？还在手刷？还在手造？在世界各地像创造模式一样丝滑地取用物品以搭建奇观吧！'
+categories: ["服务"]
+tags: ["Minecraft", "设备", "手册", "服务器"]
 ---
 
 <style>

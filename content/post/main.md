@@ -2,7 +2,7 @@
 date = '2025-03-25T11:28:56+08:00'
 draft = false
 title = '测试文章'
-cover = "/covers/hello-gridea.png"
+cover = "/covers/hello-gridea.jpg"
 +++
 
 ## 啊，啊啊

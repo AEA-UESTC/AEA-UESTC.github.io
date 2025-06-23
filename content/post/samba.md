@@ -6,6 +6,9 @@ date: 2025-04-22T15:40:00+08:00
 lastmod: 2025-04-22T15:40:00+08:00
 
 cover: "/covers/Samba.jpg"
+categories: ["服务"]
+tags: ["Samba", "网络驱动器", "科协资源"]
+description: '本文介绍了如何连接到科协Samba服务器，映射网络驱动器，以及使用注意事项。Samba是一个用于连接UNIX和Windows操作系统的网络协议，提供了跨平台的文件共享功能。'
 ---
 
 # AEA Samba Tutorial

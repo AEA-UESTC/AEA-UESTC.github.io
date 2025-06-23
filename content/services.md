@@ -53,6 +53,8 @@ lastmod: 2025-03-27T00:00:00+08:00
 
 ## AEA 内网服务
 
+### 请注意，这些服务仅限校园网内访问
+
 <div class = "services-grid">
 {{<externalLinkCard title="AEA 公用文件资源库" link="http://aea1989.tech/" cover="/images/Services/AEAarchive.png">}}
 
@@ -64,13 +66,15 @@ lastmod: 2025-03-27T00:00:00+08:00
 
 {{<externalLinkCard title="AEA NextCloud" link="http://aea1989.tech:1989/" cover="/images/Services/Nextcloud_Logo.svg.png">}}
 
-<!-- {{<externalLinkCard title="AEA Samba" link="?" cover="?">}} -->
+{{<externalLinkCard title="AEA Minecraft" link="//www.aea1989.tech/post/mcconnect/" cover="/images/Services/minecraft.jpg">}}
 </div>
 
 ## AEA 服务器管理
 
+### 请注意，这些服务仅限AEA内部网络访问，必须在相关人员监督下修改相关配置
+
 <div class = "services-grid">
-{{<externalLinkCard title="AEA 服务器DashBoard" link="http://aea1989.tech/aea-dashboard/" cover="/images/Services/server.png">}}
+{{<externalLinkCard title="AEA 服务器DashBoard" link="//aea1989.tech/aea-dashboard/" cover="/images/Services/server.png">}}
 
 {{<externalLinkCard title="AEA OpenWRT" link="http://192.168.1.2:19890/" cover="/images/Services/openwrt.png">}}
 
@@ -79,6 +83,8 @@ lastmod: 2025-03-27T00:00:00+08:00
 {{<externalLinkCard title="AEA Debian" link="?" cover="/images/Services/Debian-OpenLogo.svg.png">}}
 
 {{<externalLinkCard title="AEA ESXI" link="https://192.168.1.126/" cover="/images/Services/esxi.webp">}}
+
+{{<externalLinkCard title="AEA MiRouter" link="http://192.168.1.196/" cover="/images/Services/router.png">}}
 </div>
 
 ## 旧版服务

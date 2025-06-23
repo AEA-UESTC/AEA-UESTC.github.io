@@ -1,4 +1,4 @@
 ---
 date: 2022-07-26T21:46:25+08:00
-cover: "/covers/107214767_p0.png"
+cover: "/covers/107214767_p0.jpg"
 ---

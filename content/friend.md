@@ -1,7 +1,7 @@
 ---
-title: 友情链接
-description: 友情链接
-cover: "/covers/125711847_p0.png"
+title: 英灵殿
+description: 历届协会成员存档
+cover: "/covers/125711847_p0.jpg"
 
 date: 2024-06-09T20:12:52+08:00
 lastmod: 2024-06-09T20:12:52+08:00
@@ -13,6 +13,6 @@ lastmod: 2024-06-09T20:12:52+08:00
 #### 内容更新： @三角洲领域大神
 
 
-## 协会成员主页
+## 历届协会成员主页
 
 {{< friendsLink >}}

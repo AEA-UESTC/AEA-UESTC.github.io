@@ -1,8 +1,10 @@
 ---
 title: 'AEA MC联机指南'
 date: '2025-05-11T17:00:00+08:00'
-cover: "/covers/witcher.png"
+cover: "/covers/witcher.jpg"
 description: '本文介绍了如何在AEA服务器上进行Minecraft联机游戏的步骤和注意事项，包括ZeroTier的配置、Minecraft的设置以及模组和插件的使用建议。'
+tags: ["Minecraft", "联机", "ZeroTier", "模组", "插件"]
+categories: ["服务"]
 ---
 
 ## 1. 预准备
