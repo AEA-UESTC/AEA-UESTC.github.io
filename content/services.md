@@ -58,7 +58,7 @@ lastmod: 2025-03-27T00:00:00+08:00
 <div class = "services-grid">
 {{<externalLinkCard title="AEA 公用文件资源库" link="http://aea1989.tech/" cover="/images/Services/AEAarchive.png">}}
 
-{{<externalLinkCard title="AEA 远程打印服务" link="https://192.168.1.3:631" cover="/images/Services/cups.webp">}}
+{{<externalLinkCard title="AEA 远程打印服务" link="www.aea1989.tech/post/printer/" cover="/images/Services/cups.webp">}}
 
 {{<externalLinkCard title="AEA HomeAssistant" link="http://192.168.1.3:8123/" cover="/images/Services/hass.png">}}
 
