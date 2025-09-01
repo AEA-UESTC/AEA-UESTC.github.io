@@ -16,7 +16,7 @@ cover: "/covers/aea.png"
 
 bilibili：[成电应电科协个人主页](https://space.bilibili.com/512380538)（入门教程、知识讲座）
 
-2024级交流群：QQ 741202991
+2025级交流群：QQ 1051125871
 ___
 # Q&A
 ## Q：应电科协与社团的关系
