@@ -525,8 +525,8 @@ player:
     enable: true
     options:
       audio: [{
-        name: 'Minecraft',
-        artist: 'C418',
+        name: 'Minecraft: Lava Chicken',
+        artist: 'Minecraft / Hyper Potions',
         url: "https://music.163.com/song/media/outer/url?id=2717690420.mp3",
         cover: 'https://p1.music.126.net/uDvM-aAf63-f-Ghrm7em-w==/109951171337651402.jpg'
         # cover: 'https://p2.music.126.net/f23Ik50Hc6R69eKnImqXNw==/109951167552381622.jpg'
