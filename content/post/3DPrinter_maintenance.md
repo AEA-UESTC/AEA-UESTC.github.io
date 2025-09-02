@@ -64,6 +64,8 @@ tags: ["3D打印机", "手册", "维护"]
 
 由于ABS耗材打印时会产生有害气体，并且打印质量较差，故无特殊要求科协不会使用ABS耗材。
 
+打印PLA-CF（含碳纤维）时，请务必使用**硬化钢**喷嘴，否则会对普通喷嘴产生不可逆损坏。
+
 <a href="https://www.bambulab.cn/zh-cn/filament-guide" target="_blank">耗材指南</a>
 
 ## 出现了问题？
