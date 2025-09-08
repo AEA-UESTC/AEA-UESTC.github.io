@@ -35,7 +35,10 @@ lastmod: 2025-03-27T00:00:00+08:00
 
 {{<externalLinkCard title="AEA 3D打印申请" link="暂未开放" cover="/images/Services/3dbambu.png">}}
 
-{{<externalLinkCard title="AEA 公用文件资源库" link="http://aea1989.tech/" cover="/images/Services/AEAarchive.png">}}
+{{<externalLinkCard title="AEA 公用文件资源库" link="//aea1989.tech/AEA-Public-Files/" cover="/images/Services/AEAarchive.png">}}
+
+{{<externalLinkCard title="AEA Public Server V2.5" link="http://aea1989.tech/" cover="/images/Services/AEAV2.png">}}
+</div>
 
 </div>
 
@@ -56,7 +59,7 @@ lastmod: 2025-03-27T00:00:00+08:00
 ### 请注意，这些服务仅限校园网内访问
 
 <div class = "services-grid">
-{{<externalLinkCard title="AEA 公用文件资源库" link="http://aea1989.tech/" cover="/images/Services/AEAarchive.png">}}
+{{<externalLinkCard title="AEA 公用文件资源库" link="//aea1989.tech/AEA-Public-Files/" cover="/images/Services/AEAarchive.png">}}
 
 {{<externalLinkCard title="AEA 远程打印服务" link="//www.aea1989.tech/post/printer/" cover="/images/Services/cups.webp">}}
 
