@@ -32,6 +32,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.145.0
+      ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+      ALGOLIA_ADMIN_API_KEY: ${{ secrets.ALGOLIA_ADMIN_API_KEY }}
+      ALGOLIA_INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
     steps:
       - name: Install Hugo CLI
         run: |
@@ -59,11 +62,7 @@ jobs:
 
       # Upload Algolia index using the official Algolia CLI
       - name: Upload Algolia index (Algolia CLI)
-        if: ${{ secrets.ALGOLIA_APP_ID != '' && secrets.ALGOLIA_ADMIN_API_KEY != '' && secrets.ALGOLIA_INDEX_NAME != '' }}
-        env:
-          ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
-          ALGOLIA_ADMIN_API_KEY: ${{ secrets.ALGOLIA_ADMIN_API_KEY }}
-          ALGOLIA_INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
+        if: env.ALGOLIA_APP_ID != '' && env.ALGOLIA_ADMIN_API_KEY != '' && env.ALGOLIA_INDEX_NAME != ''
         run: |
           if [ ! -f ./public/algolia.json ]; then
             echo "algolia.json not found in ./public. Skipping upload."
