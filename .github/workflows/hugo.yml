@@ -60,15 +60,20 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
-      # Upload Algolia index using atomic-algolia
+      # Upload Algolia index using atomic-algolia (npm CLI)
       - name: Upload Algolia index
         if: env.ALGOLIA_APP_ID != '' && env.ALGOLIA_ADMIN_API_KEY != '' && env.ALGOLIA_INDEX_NAME != ''
-        uses: jake-jarvis/atomic-algolia@v2
-        with:
-          algolia-app-id: ${{ secrets.ALGOLIA_APP_ID }}
-          algolia-admin-key: ${{ secrets.ALGOLIA_ADMIN_API_KEY }}
-          algolia-index-name: ${{ secrets.ALGOLIA_INDEX_NAME }}
-          file-to-index: './public/algolia.json'
+        env:
+          ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_API_KEY }}
+          ALGOLIA_INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
+          ALGOLIA_INDEX_FILE: './public/algolia.json'
+        run: |
+          if [ ! -f "$ALGOLIA_INDEX_FILE" ]; then
+            echo "algolia.json not found at $ALGOLIA_INDEX_FILE. Skipping upload."
+            exit 1
+          fi
+          npx -y atomic-algolia
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
