@@ -56,6 +56,25 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      # Upload Algolia index using the official Algolia CLI
+      - name: Upload Algolia index (Algolia CLI)
+        if: ${{ secrets.ALGOLIA_APP_ID != '' && secrets.ALGOLIA_ADMIN_API_KEY != '' && secrets.ALGOLIA_INDEX_NAME != '' }}
+        env:
+          ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+          ALGOLIA_ADMIN_API_KEY: ${{ secrets.ALGOLIA_ADMIN_API_KEY }}
+          ALGOLIA_INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
+        run: |
+          if [ ! -f ./public/algolia.json ]; then
+            echo "algolia.json not found in ./public. Skipping upload."
+            exit 1
+          fi
+          npx -y @algolia/cli import \
+            -s ./public/algolia.json \
+            -a "$ALGOLIA_APP_ID" \
+            -k "$ALGOLIA_ADMIN_API_KEY" \
+            -n "$ALGOLIA_INDEX_NAME"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
